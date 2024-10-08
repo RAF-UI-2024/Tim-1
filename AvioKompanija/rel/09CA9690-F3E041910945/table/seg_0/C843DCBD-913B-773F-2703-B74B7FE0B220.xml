@@ -38,6 +38,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Rezervacija_RezrvacijaID" id="C7C805D6-1354-A4F6-7486-9A63FBF8F6DF">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 22:28:50 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2342501-BFA1-838B-AA0B-1573200671A8" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="186E7D18-364C-598A-1468-5764A32456A4" name="Let_PK">
@@ -49,6 +63,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="1988D195-D650-EA9A-435C-574B5156D65B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15CFBD9B-02E9-D16A-949E-FA84F0240C41" name="Let_Rezervacija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 22:28:50 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7C805D6-1354-A4F6-7486-9A63FBF8F6DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
