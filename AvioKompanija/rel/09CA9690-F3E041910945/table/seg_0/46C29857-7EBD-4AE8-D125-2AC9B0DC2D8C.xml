@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46C29857-7EBD-4AE8-D125-2AC9B0DC2D8C" name="Pilot">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:49:23 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DatumRodjenja" id="9E4407D2-6F61-3210-014C-1B81C12AB2CF">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:55:51 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SatiUVazduhu" id="CB7E5663-0C1B-3506-21CF-68BE5C9787B8">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:55:51 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Visina" id="F45A50AB-FB23-3742-87A8-9C7AAB22F763">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:55:51 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

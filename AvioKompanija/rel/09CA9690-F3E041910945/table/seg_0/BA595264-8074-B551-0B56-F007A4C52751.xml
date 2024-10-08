@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA595264-8074-B551-0B56-F007A4C52751" name="Korisnik">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:34:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KorisnikID" id="21962A48-2DD3-C1D9-C318-6353F5F8F22D">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="C4C7AED2-8456-C59F-2B01-7CCEE91FDBD0">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="0A5E918C-77E5-A69D-4A86-F88203188C45">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="2EC82E1C-D2FC-EF3D-537E-B568885C6A8D">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lozinka" id="DDA6A3E6-536A-042E-9EBB-4DAD6B0C7BF4">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pol" id="6B1B479C-6100-CDD6-2A6F-CEFEA182BC5D">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9844B047-153E-F9DD-DA47-203B8545A691" name="Korisnik_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEC7573B-DEB8-9820-F9F9-6C516E922B0A" name="Prtljag">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 13:13:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PrtljagID" id="A2058E1A-09EC-83C9-6573-D6D2C6B6F9A3">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 13:14:11 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tezina" id="D6846C1B-3798-FD15-6392-813AF0BB7682">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 13:14:11 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip" id="DCBB5F81-112C-DEB7-6482-E80ECD623AB3">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 13:14:11 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Putnik_BrojPasosa" id="369DD03B-4BE6-95C2-FC30-2C0BBCE3D02A">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 13:33:19 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="843B8B06-8D54-E874-D3D6-1B29C5546944" referredColumn="26BF5C1C-A013-B85D-68ED-CD79B5DEE4E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1975AE1D-4F2F-754C-0FF3-90EC9980A881" name="Prtljag_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 13:14:11 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2058E1A-09EC-83C9-6573-D6D2C6B6F9A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="627520AB-CDD0-09FE-722D-008003535AC4" name="Prtljag_Putnik_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-08 13:33:19 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="369DD03B-4BE6-95C2-FC30-2C0BBCE3D02A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
