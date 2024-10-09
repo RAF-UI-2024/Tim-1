@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6577E4AB-5517-6FC7-0BD9-2972A12288A6" name="Rezervacija_Leta">
+<createdBy>User</createdBy>
+<createdTime>2024-10-09 19:24:29 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Let_LetID" id="82342734-5191-AD9C-5B8B-388AC4D02138">
+<createdBy>User</createdBy>
+<createdTime>2024-10-09 19:25:00 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9739FC9-EEE0-737E-5297-8BECACCCE899" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
+</associations>
+</Column>
+<Column name="Rezervacija_RezrvacijaID" id="A125F9A5-02E2-C4DE-2DD1-9D06B2C3832C">
+<createdBy>User</createdBy>
+<createdTime>2024-10-09 19:25:11 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6798F8DB-76FD-1BBA-EEBD-08DB17AA5CD8" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6185993-43E1-A75D-196F-25CC5273A506" name="Rezervacija_Leta_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-09 19:25:53 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82342734-5191-AD9C-5B8B-388AC4D02138"/>
+<colUsage columnID="A125F9A5-02E2-C4DE-2DD1-9D06B2C3832C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9297ADAA-D14D-DC88-AB36-73716D57738D" name="Rezervacija_Leta_Let_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-09 19:25:00 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82342734-5191-AD9C-5B8B-388AC4D02138"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F3B7457-0B0F-C378-9CE8-ED769B21296D" name="Rezervacija_Leta_Rezervacija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-09 19:25:11 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A125F9A5-02E2-C4DE-2DD1-9D06B2C3832C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

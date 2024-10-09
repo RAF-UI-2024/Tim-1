@@ -38,9 +38,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rezervacija_RezrvacijaID" id="C7C805D6-1354-A4F6-7486-9A63FBF8F6DF">
+<Column name="Avion_AvionID" id="0D755A8C-9E51-DE3C-F5C2-4F4470781BAA">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 22:28:50 UTC</createdTime>
+<createdTime>2024-10-09 19:15:38 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +49,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F2342501-BFA1-838B-AA0B-1573200671A8" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
+<colAssociation fkAssociation="ACB281DC-848B-6587-4CA9-5BA04E31AFC2" referredColumn="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208"/>
 </associations>
 </Column>
 </columns>
@@ -65,14 +65,14 @@
 <colUsage columnID="1988D195-D650-EA9A-435C-574B5156D65B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="15CFBD9B-02E9-D16A-949E-FA84F0240C41" name="Let_Rezervacija_FK">
+<ind_PK_UK id="08FAEC00-A29F-47EA-3CA3-150046FC220D" name="Let_Avion_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 22:28:50 UTC</createdTime>
+<createdTime>2024-10-09 19:15:38 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C7C805D6-1354-A4F6-7486-9A63FBF8F6DF"/>
+<colUsage columnID="0D755A8C-9E51-DE3C-F5C2-4F4470781BAA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
