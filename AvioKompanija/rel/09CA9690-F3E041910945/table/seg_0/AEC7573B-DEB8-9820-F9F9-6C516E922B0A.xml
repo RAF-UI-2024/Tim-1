@@ -38,9 +38,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Putnik_BrojPasosa" id="369DD03B-4BE6-95C2-FC30-2C0BBCE3D02A">
+<Column name="KonacnaRezervacija_KartaId" id="85157292-412D-2815-9308-9175C2920C64">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 13:33:19 UTC</createdTime>
+<createdTime>2024-10-11 12:35:41 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +49,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="843B8B06-8D54-E874-D3D6-1B29C5546944" referredColumn="26BF5C1C-A013-B85D-68ED-CD79B5DEE4E1"/>
+<colAssociation fkAssociation="3B5A5EA6-A32D-334D-12F2-272875D5EE41" referredColumn="47EC0F5B-FB20-AA87-65C1-2B5B5D00E9EE"/>
 </associations>
 </Column>
 </columns>
@@ -65,14 +65,14 @@
 <colUsage columnID="A2058E1A-09EC-83C9-6573-D6D2C6B6F9A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="627520AB-CDD0-09FE-722D-008003535AC4" name="Prtljag_Putnik_FK">
+<ind_PK_UK id="1661044C-87BC-9369-15C8-57B1C35BC5E7" name="Prtljag_KonacnaRezervacija_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 13:33:19 UTC</createdTime>
+<createdTime>2024-10-11 12:35:41 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="369DD03B-4BE6-95C2-FC30-2C0BBCE3D02A"/>
+<colUsage columnID="85157292-412D-2815-9308-9175C2920C64"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

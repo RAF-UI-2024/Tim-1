@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B8343BB-8C08-972B-C8B5-A4738068C82A" name="Posada">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:23:44 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Let_LetID" id="1CD7ADA9-BB6E-0D6F-997D-EC2162D06288">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:25:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="837F5CC7-332E-0081-A53D-A5F819C68302" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
+</associations>
+</Column>
+<Column name="Pilot_Zaposleni_ZaposleniID" id="F34128A9-97BB-B461-68B1-E2150502F13D">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:25:49 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DE9CECF-6F3E-A1EF-82CF-D2E4634F84D9" referredColumn="4123D62B-C7C5-5528-514F-7D400FAB1E7D"/>
+</associations>
+</Column>
+<Column name="Stjuardesa_Zaposleni_ZaposleniID" id="FCC74387-3BB6-9F74-5E8C-9DB5AB9291EE">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:25:55 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0B8A6A3-DE5F-0A68-4DB5-BBED6FFDF659" referredColumn="795834DB-202F-9EBE-E427-D51ABE371935"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D11C2A14-EFC1-F3C3-E52C-B12E9B711893" name="Posada_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:24:12 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CD7ADA9-BB6E-0D6F-997D-EC2162D06288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DD1A814-B454-7277-51AC-BBA170478485" name="Posada_Let_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:25:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CD7ADA9-BB6E-0D6F-997D-EC2162D06288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98292050-1ED3-5F14-A05C-95A0A94156AD" name="Posada_Pilot_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:25:49 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F34128A9-97BB-B461-68B1-E2150502F13D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F971B7C3-F4A3-1F48-9922-C92EFC1406D6" name="Posada_Stjuardesa_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 12:25:55 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCC74387-3BB6-9F74-5E8C-9DB5AB9291EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

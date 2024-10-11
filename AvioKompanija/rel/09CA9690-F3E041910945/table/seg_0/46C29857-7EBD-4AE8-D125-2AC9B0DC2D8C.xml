@@ -38,5 +38,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Zaposleni_ZaposleniID" id="4123D62B-C7C5-5528-514F-7D400FAB1E7D">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 11:44:14 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3950D3D-8C38-A224-BB84-5E53BCEB0232" referredColumn="352E6CCA-F17F-2804-3B30-6EDF0C8BE194"/>
+</associations>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA8C7975-9DD6-5A9D-D1DE-16218B4311D8" name="Pilot_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-10 06:58:30 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4123D62B-C7C5-5528-514F-7D400FAB1E7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="530EB5DE-BDC5-013A-5651-8DB8D09FF8B4" name="Pilot_Zaposleni_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 11:44:14 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4123D62B-C7C5-5528-514F-7D400FAB1E7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

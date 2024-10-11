@@ -69,6 +69,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TipZaposlenog_TipZaposlenogId" id="D3E3CE5F-06BC-3C81-4F66-13F15F03B68C">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 11:41:45 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0B6CB3C-B2A5-48C2-6D98-750F23CE84D2" referredColumn="6A529D47-369D-CAD8-537A-218B1F7A1D98"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="46165036-62D9-A823-C14B-8A31C1973249" name="Zaposleni_PK">
@@ -80,6 +94,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="352E6CCA-F17F-2804-3B30-6EDF0C8BE194"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D02D22A-CA0C-FD27-5F7F-4B80548CFB48" name="Zaposleni_TipZaposlenog_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 11:41:45 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3E3CE5F-06BC-3C81-4F66-13F15F03B68C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57B2772E-B91C-9645-D6F2-40D768629109" name="Avion">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57F3F6ED-9C78-861C-931D-8CE77A4E4D40" name="Licenca">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 12:30:49 UTC</createdTime>
+<createdTime>2024-10-11 17:09:04 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_27</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="AvionID" id="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208">
+<Column name="LicencaId" id="75B8DF45-512F-859F-3484-35B08551427E">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 12:34:52 UTC</createdTime>
+<createdTime>2024-10-11 17:10:12 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,19 +18,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kapacitet" id="64C8EEC5-145F-9179-017C-062523799306">
+<Column name="DatumIzdavanja" id="479BBC10-DD99-93E8-5097-87D2DE246F14">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 12:34:52 UTC</createdTime>
+<createdTime>2024-10-11 17:10:12 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Proizvodjac_ProizvodjacId" id="E5023106-143D-80BD-3636-8EA306CB4A91">
+<Column name="DatumIsteka" id="7FE86584-8246-26F4-3F6F-E924CC11E7BE">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:14:53 UTC</createdTime>
+<createdTime>2024-10-11 17:10:12 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pilot_Zaposleni_ZaposleniID" id="8F8BDD6C-C443-D140-FF21-974C81C612B8">
+<createdBy>User</createdBy>
+<createdTime>2024-10-11 17:10:51 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,30 +49,31 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5286DE0C-F5AF-003D-3ECB-F88CEAEC23A6" referredColumn="31B4FC41-3E8D-EB68-5322-AA1B9ACA1732"/>
+<colAssociation fkAssociation="EA236CD3-1A59-9EC6-4356-4F616C61893B" referredColumn="4123D62B-C7C5-5528-514F-7D400FAB1E7D"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="291BB020-AB9A-36E7-FA8C-155938749FB4" name="Avion_PK">
+<ind_PK_UK id="298B3693-C559-E063-E93E-9691D286A731" name="Licenca_PK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 12:34:52 UTC</createdTime>
+<createdTime>2024-10-11 17:10:12 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208"/>
+<colUsage columnID="75B8DF45-512F-859F-3484-35B08551427E"/>
+<colUsage columnID="8F8BDD6C-C443-D140-FF21-974C81C612B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1017EB37-E320-136D-97FD-5A71B7C8CF98" name="Avion_Proizvodjac_FK">
+<ind_PK_UK id="F8D88EB9-D28C-6A22-E0ED-A2D480B6A4F9" name="Licenca_Pilot_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:14:53 UTC</createdTime>
+<createdTime>2024-10-11 17:10:51 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5023106-143D-80BD-3636-8EA306CB4A91"/>
+<colUsage columnID="8F8BDD6C-C443-D140-FF21-974C81C612B8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

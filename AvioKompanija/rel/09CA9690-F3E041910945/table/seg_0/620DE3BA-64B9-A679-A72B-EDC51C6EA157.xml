@@ -44,14 +44,14 @@
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>2 CHAR</dataTypeSize>
-<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rezervacija_RezrvacijaID" id="C33DAC01-995C-0AD1-DB3C-7ED5C4CB0F79">
+<Column name="Rezervacija_RezrvacijaID" id="2538BC3E-90BB-9831-FFBB-CF42A755C032">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 13:33:03 UTC</createdTime>
+<createdTime>2024-10-11 12:35:51 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,7 +60,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F121BCAC-6A75-5D2C-F41B-4496F82A1861" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
+<colAssociation fkAssociation="4C638EFE-CCE5-291B-FE34-5F02550576C1" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
 </associations>
 </Column>
 </columns>
@@ -76,14 +76,14 @@
 <colUsage columnID="26BF5C1C-A013-B85D-68ED-CD79B5DEE4E1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E431C8FB-0DF7-8294-6080-F2B8164E9597" name="Putnik_Rezervacija_FK">
+<ind_PK_UK id="EB31DCD7-7A26-2414-FBE1-7ADF0E8A42DD" name="Putnik_Rezervacija_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 13:33:03 UTC</createdTime>
+<createdTime>2024-10-11 12:35:51 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C33DAC01-995C-0AD1-DB3C-7ED5C4CB0F79"/>
+<colUsage columnID="2538BC3E-90BB-9831-FFBB-CF42A755C032"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
