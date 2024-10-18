@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F55E0510-10CF-24A0-7D53-EA92AB5AE690" name="Kofer">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:00:54 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Boja" id="FA638CB7-2CFF-7D38-E526-598997401CC9">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:01:49 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Brend" id="8B20126B-E1FC-A885-B8A5-A8D4D3373C3B">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:02:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tockovi" id="76F18611-2339-55E8-E422-26E3825395FE">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:03:14 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip" id="77BD17D6-48ED-BFA8-9CC5-9A10744E13A0">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:04:29 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipPrtljaga_PrtljagID" id="61BFB7F3-7CEC-C2C0-FBC7-5EB095F848B6">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:06:05 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC717CD0-AF23-3E53-10FE-350E3AF204A0" referredColumn="A2058E1A-09EC-83C9-6573-D6D2C6B6F9A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D46738F-B5BF-0B65-34E4-63BD9E45A569" name="Kofer_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:06:19 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BFB7F3-7CEC-C2C0-FBC7-5EB095F848B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0709F1B-B23F-CA78-9CBF-F4B8DD4CF4E5" name="Kofer_TipPrtljaga_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 10:06:05 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61BFB7F3-7CEC-C2C0-FBC7-5EB095F848B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

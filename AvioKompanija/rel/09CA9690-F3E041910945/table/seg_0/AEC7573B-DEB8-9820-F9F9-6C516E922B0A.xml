@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEC7573B-DEB8-9820-F9F9-6C516E922B0A" name="Prtljag">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEC7573B-DEB8-9820-F9F9-6C516E922B0A" name="TipPrtljaga">
 <createdBy>User</createdBy>
 <createdTime>2024-10-08 13:13:01 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
@@ -28,13 +28,14 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tip" id="DCBB5F81-112C-DEB7-6482-E80ECD623AB3">
+<Column name="Dubina" id="DCBB5F81-112C-DEB7-6482-E80ECD623AB3">
 <createdBy>User</createdBy>
 <createdTime>2024-10-08 13:14:11 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -51,6 +52,28 @@
 <associations>
 <colAssociation fkAssociation="3B5A5EA6-A32D-334D-12F2-272875D5EE41" referredColumn="47EC0F5B-FB20-AA87-65C1-2B5B5D00E9EE"/>
 </associations>
+</Column>
+<Column name="Sirina" id="85D97BFE-3AF2-6CC5-800D-C9A7C9C27016">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 09:52:22 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Visina" id="99816FD4-EF15-3186-7D63-075D9140499F">
+<createdBy>User</createdBy>
+<createdTime>2024-10-18 09:53:12 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
