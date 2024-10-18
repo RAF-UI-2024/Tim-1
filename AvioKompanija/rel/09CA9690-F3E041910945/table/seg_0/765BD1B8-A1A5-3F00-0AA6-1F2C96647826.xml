@@ -28,16 +28,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Status" id="AE523199-CE00-516A-C9BA-AF88F63AB906">
-<createdBy>User</createdBy>
-<createdTime>2024-10-08 13:04:38 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Korisnik_KorisnikID" id="8073E464-FE61-8C68-E4A4-6E3A7D06FCB3">
 <createdBy>User</createdBy>
 <createdTime>2024-10-08 13:32:21 UTC</createdTime>
