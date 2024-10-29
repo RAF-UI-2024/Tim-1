@@ -39,20 +39,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KonacnaRezervacija_KartaId" id="85157292-412D-2815-9308-9175C2920C64">
-<createdBy>User</createdBy>
-<createdTime>2024-10-11 12:35:41 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3B5A5EA6-A32D-334D-12F2-272875D5EE41" referredColumn="47EC0F5B-FB20-AA87-65C1-2B5B5D00E9EE"/>
-</associations>
-</Column>
 <Column name="Sirina" id="85D97BFE-3AF2-6CC5-800D-C9A7C9C27016">
 <createdBy>User</createdBy>
 <createdTime>2024-10-18 09:52:22 UTC</createdTime>
@@ -86,16 +72,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A2058E1A-09EC-83C9-6573-D6D2C6B6F9A3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="1661044C-87BC-9369-15C8-57B1C35BC5E7" name="Prtljag_KonacnaRezervacija_FK">
-<createdBy>User</createdBy>
-<createdTime>2024-10-11 12:35:41 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="85157292-412D-2815-9308-9175C2920C64"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

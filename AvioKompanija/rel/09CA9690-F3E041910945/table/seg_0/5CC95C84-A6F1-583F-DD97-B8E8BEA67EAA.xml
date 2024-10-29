@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CC95C84-A6F1-583F-DD97-B8E8BEA67EAA" name="Let_Aerodrom">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:36:58 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Let_LetID" id="50502837-7C9E-A180-C807-BFF3762DC4DE">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:37:16 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61033843-771A-BBED-3891-D9CAD4D7CBAA" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
+</associations>
+</Column>
+<Column name="Aerodrom_AerodromID" id="A4DC840E-C801-BFF2-EE0D-49814A4B2175">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:37:20 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C15C126-9580-0EEB-6DBF-CB968CF4AE83" referredColumn="7C67D88B-75C6-1AA5-2897-18CB16121FA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B6DAC71-16D5-00E1-DAB1-68388CF7AE0E" name="Let_Aerodrom_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:37:32 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50502837-7C9E-A180-C807-BFF3762DC4DE"/>
+<colUsage columnID="A4DC840E-C801-BFF2-EE0D-49814A4B2175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F792E4C1-03DE-1FAD-A8AD-9832041CE97B" name="Let_Aerodrom_Let_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:37:16 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50502837-7C9E-A180-C807-BFF3762DC4DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E91A725C-3D7B-DB3B-7BA3-865B29129B63" name="Let_Aerodrom_Aerodrom_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:37:20 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4DC840E-C801-BFF2-EE0D-49814A4B2175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

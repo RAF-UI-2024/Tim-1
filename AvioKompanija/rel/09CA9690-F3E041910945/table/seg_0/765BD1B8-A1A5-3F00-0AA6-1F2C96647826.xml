@@ -42,6 +42,34 @@
 <colAssociation fkAssociation="1CDB11D6-2A63-0B02-8021-93885F493026" referredColumn="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
 </associations>
 </Column>
+<Column name="KonacnaRezervacija_KartaId" id="8767B02C-32E7-D075-761A-3D333B8691CF">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:44:55 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1FACC9-E9AF-08AF-51AC-5F2AD8AB3D83" referredColumn="47EC0F5B-FB20-AA87-65C1-2B5B5D00E9EE"/>
+</associations>
+</Column>
+<Column name="Aerodrom_AerodromID" id="F1B928C4-159A-137E-2640-86E1D5DEF0E8">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:25:41 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0014826C-9E15-74A7-034B-0C6337893451" referredColumn="7C67D88B-75C6-1AA5-2897-18CB16121FA5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8129CC55-5E3F-B49D-1368-22A73CDECCAF" name="Rezervacija_PK">
@@ -63,6 +91,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8073E464-FE61-8C68-E4A4-6E3A7D06FCB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A97617E6-DEEB-F88B-CCDF-9D4E6E3FE1EE" name="PreeliminarnaRezervacija_KonacnaRezervacija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:44:55 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8767B02C-32E7-D075-761A-3D333B8691CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C962818-EF4F-DCF9-17DE-BCC0AB38837A" name="PreeliminarnaRezervacija_Aerodrom_FKv2">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:25:41 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1B928C4-159A-137E-2640-86E1D5DEF0E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

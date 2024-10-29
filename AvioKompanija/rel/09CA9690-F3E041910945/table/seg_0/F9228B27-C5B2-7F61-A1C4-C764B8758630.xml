@@ -22,7 +22,6 @@
 <createdBy>User</createdBy>
 <createdTime>2024-10-11 12:18:25 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

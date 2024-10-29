@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7102C64E-617D-9DF3-33BD-692310E3B0E7" containerWithKeyObject="BA595264-8074-B551-0B56-F007A4C52751" localFKIndex="97EB6F61-299B-83F0-94CD-351E200498A5" name="Korisnik_LoyaltyProgram_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:12:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>LoyaltyProgram</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5662DD1C-70A5-D76C-49D6-EC68208F2981</referredTableID>
+<keyObject>B4E06590-9543-29C7-9566-5FBAE1032E6E</keyObject>
+<referredKeyID>B4E06590-9543-29C7-9566-5FBAE1032E6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LoyaltyProgramID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

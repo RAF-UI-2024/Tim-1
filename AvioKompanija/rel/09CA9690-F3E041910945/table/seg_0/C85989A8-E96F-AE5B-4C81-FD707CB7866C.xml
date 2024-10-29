@@ -1,24 +1,36 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A28683F9-485B-77A5-7382-C0924F8E8EA3" name="Model">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C85989A8-E96F-AE5B-4C81-FD707CB7866C" name="Recenzije">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:08:10 UTC</createdTime>
+<createdTime>2024-10-29 14:16:34 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<ordsAlias>table_19</ordsAlias>
+<ordsAlias>table_32</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ModelId" id="BC35F241-2C77-6E60-F615-91B293DC2992">
+<Column name="RecenzijaID" id="99867CCD-A2C5-BAD3-50E8-1A04F816459F">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:08:51 UTC</createdTime>
+<createdTime>2024-10-29 14:18:01 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NazivModela" id="814FF1CF-5F29-BA49-49FE-F21E928840F9">
+<Column name="Datum" id="9137EF6F-69C0-247F-6F1D-0247F5DE45D6">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:08:51 UTC</createdTime>
+<createdTime>2024-10-29 14:18:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipRecenzije" id="C4D0CDD0-66C4-BCEF-4054-597C79453FB2">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:18:01 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -26,39 +38,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumProizvodnje" id="9B24C886-5F09-99E4-0A65-FD8A1B6F3033">
+<Column name="Opis" id="75C511D8-7AED-2E49-3988-CDC3EFDD775D">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:16:22 UTC</createdTime>
+<createdTime>2024-10-29 14:18:01 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="KapacitetPrtljaga" id="2D95DD40-8439-9B6B-C12D-798D89FA7156">
+<Column name="Korisnik_KorisnikID" id="FAC0B427-E5B9-9000-D8AE-CA2B114F0C4F">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 13:42:17 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BrojSedista" id="A3E56998-4A57-B3B6-9514-F51B5D4614D1">
-<createdBy>User</createdBy>
-<createdTime>2024-10-29 13:42:17 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Proizvodjac_ProizvodjacId" id="2938F37E-0173-27B0-9CF9-DA1187DBE564">
-<createdBy>User</createdBy>
-<createdTime>2024-10-11 12:15:28 UTC</createdTime>
+<createdTime>2024-10-29 14:18:19 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -67,30 +59,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1D08BB85-EC99-4208-8194-35160C118AFF" referredColumn="31B4FC41-3E8D-EB68-5322-AA1B9ACA1732"/>
+<colAssociation fkAssociation="6E9A4B05-D684-BD40-CC69-D7FD9FACFA96" referredColumn="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="22312AD7-870C-3F75-9052-21AF3D057323" name="Model_PK">
+<ind_PK_UK id="A314F4D7-7892-E692-E19D-3C9358636D4E" name="Recenzije_PK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:08:51 UTC</createdTime>
+<createdTime>2024-10-29 14:18:01 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BC35F241-2C77-6E60-F615-91B293DC2992"/>
+<colUsage columnID="99867CCD-A2C5-BAD3-50E8-1A04F816459F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C1D2748F-ED35-3B9A-764F-640FAF2236D2" name="Model_Proizvodjac_FK">
+<ind_PK_UK id="4574A62D-BBBF-3837-76E7-D264C13A109B" name="Recenzije_Korisnik_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:15:28 UTC</createdTime>
+<createdTime>2024-10-29 14:18:19 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2938F37E-0173-27B0-9CF9-DA1187DBE564"/>
+<colUsage columnID="FAC0B427-E5B9-9000-D8AE-CA2B114F0C4F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0014826C-9E15-74A7-034B-0C6337893451" containerWithKeyObject="765BD1B8-A1A5-3F00-0AA6-1F2C96647826" localFKIndex="2C962818-EF4F-DCF9-17DE-BCC0AB38837A" name="PreeliminarnaRezervacija_Aerodrom_FKv2">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:25:41 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>Aerodrom</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F71B4489-6216-E660-812A-372ABA95E7CB</referredTableID>
+<keyObject>D0152EBD-A8D7-5980-0269-CE8ADDC3D9D3</keyObject>
+<referredKeyID>D0152EBD-A8D7-5980-0269-CE8ADDC3D9D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AerodromID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

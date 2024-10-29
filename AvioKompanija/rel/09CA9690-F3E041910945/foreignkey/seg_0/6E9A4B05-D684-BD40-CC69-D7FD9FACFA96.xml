@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E9A4B05-D684-BD40-CC69-D7FD9FACFA96" containerWithKeyObject="C85989A8-E96F-AE5B-4C81-FD707CB7866C" localFKIndex="4574A62D-BBBF-3837-76E7-D264C13A109B" name="Recenzije_Korisnik_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 14:18:19 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>Korisnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA595264-8074-B551-0B56-F007A4C52751</referredTableID>
+<keyObject>9844B047-153E-F9DD-DA47-203B8545A691</keyObject>
+<referredKeyID>9844B047-153E-F9DD-DA47-203B8545A691</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KorisnikID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

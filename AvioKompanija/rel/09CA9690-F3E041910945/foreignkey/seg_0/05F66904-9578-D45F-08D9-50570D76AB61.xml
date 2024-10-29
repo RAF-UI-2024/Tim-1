@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0B8A6A3-DE5F-0A68-4DB5-BBED6FFDF659" containerWithKeyObject="1B8343BB-8C08-972B-C8B5-A4738068C82A" localFKIndex="F971B7C3-F4A3-1F48-9922-C92EFC1406D6" name="Posada_Stjuardesa_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="05F66904-9578-D45F-08D9-50570D76AB61" containerWithKeyObject="89BF8649-F3C0-5EF2-2449-80872313E12A" localFKIndex="2AEF2D84-E81A-BAEE-A88F-600D61971B5B" name="Stjuardesa_Jezik_Stjuardesa_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:25:55 UTC</createdTime>
+<createdTime>2024-10-29 13:38:09 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <referredTableLongName>Stjuardesa</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -9,7 +9,7 @@
 <keyObject>FD84B2D0-59EA-FEEF-0165-5043307F82B9</keyObject>
 <referredKeyID>FD84B2D0-59EA-FEEF-0165-5043307F82B9</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>Zaposleni_ZaposleniID</refColNames>
+<refColNames>StjuardesaID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

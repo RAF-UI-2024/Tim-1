@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DE9CECF-6F3E-A1EF-82CF-D2E4634F84D9" containerWithKeyObject="1B8343BB-8C08-972B-C8B5-A4738068C82A" localFKIndex="98292050-1ED3-5F14-A05C-95A0A94156AD" name="Posada_Pilot_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5B04829-FBA1-76CF-5F28-48B333F25048" containerWithKeyObject="4BD75A24-0105-F160-8AA9-7441122A90CB" localFKIndex="C8D517CA-D54A-9E12-54F7-FBCFFE7215DA" name="Pilot_Posada_Pilot_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:25:49 UTC</createdTime>
+<createdTime>2024-10-29 13:18:24 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <referredTableLongName>Pilot</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -9,7 +9,7 @@
 <keyObject>CA8C7975-9DD6-5A9D-D1DE-16218B4311D8</keyObject>
 <referredKeyID>CA8C7975-9DD6-5A9D-D1DE-16218B4311D8</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>Zaposleni_ZaposleniID</refColNames>
+<refColNames>PilotID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

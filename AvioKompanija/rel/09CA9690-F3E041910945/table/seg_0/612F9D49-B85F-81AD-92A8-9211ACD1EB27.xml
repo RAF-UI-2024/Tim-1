@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="612F9D49-B85F-81AD-92A8-9211ACD1EB27" name="Stjuardesa_Posada">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:17:37 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Stjuardesa_StjuardesaID" id="3484D2E7-63D5-C215-6BF7-99041090422A">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:18:35 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44E15AAD-8DDA-B06B-D173-05D2694DAAAE" referredColumn="78745E5C-796A-0A91-FBD4-719E387C3DF0"/>
+</associations>
+</Column>
+<Column name="Posada_PosadaID" id="B5E03033-7092-D846-3064-8F9367B6C330">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:21:10 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D65EC0B3-008A-BD26-FDF0-060427BFFC2E" referredColumn="4B9DC304-C53E-A72A-D04C-27185C36A63F"/>
+</associations>
+</Column>
+<Column name="Uloga" id="D5284447-D1CA-7012-B3A9-A6D3EC53515B">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:23:40 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84227EBC-A9E1-0092-4D84-2B296934F7DF" name="Stjuardesa_Posada_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:20:21 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3484D2E7-63D5-C215-6BF7-99041090422A"/>
+<colUsage columnID="B5E03033-7092-D846-3064-8F9367B6C330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00098A57-CC40-88B9-6D98-AB5F27064D54" name="Stjuardesa_Posada_Posada_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:18:30 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5E03033-7092-D846-3064-8F9367B6C330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3E3D9DA-F114-FB68-5E6A-3FBDA2FDB699" name="Stjuardesa_Posada_Stjuardesa_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 13:18:35 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3484D2E7-63D5-C215-6BF7-99041090422A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
