@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA6D9F86-4D8E-F3E9-E949-E06BB45E52ED" containerWithKeyObject="330E39F6-D6ED-4CAC-5AA6-1E89E311CFC4" localFKIndex="DC4B262D-A730-7657-A542-D09E3AF27882" name="Pasos_Putnik_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-10-26 16:50:45 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>Putnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>620DE3BA-64B9-A679-A72B-EDC51C6EA157</referredTableID>
+<keyObject>7A62A027-AF70-8A68-E0CF-77D16C3CF202</keyObject>
+<referredKeyID>7A62A027-AF70-8A68-E0CF-77D16C3CF202</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PutnikID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

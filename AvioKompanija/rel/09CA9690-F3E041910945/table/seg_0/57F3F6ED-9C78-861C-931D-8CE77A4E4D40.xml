@@ -48,8 +48,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pilot_PilotID" id="275B83BF-8406-B7F6-897C-AA317FED5AA4">
+<createdBy>User</createdBy>
+<createdTime>2024-10-26 16:24:35 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EA236CD3-1A59-9EC6-4356-4F616C61893B" referredColumn="4123D62B-C7C5-5528-514F-7D400FAB1E7D"/>
+<colAssociation fkAssociation="EA236CD3-1A59-9EC6-4356-4F616C61893B" referredColumn="28F0666F-2137-C307-6E2F-EE0A6FFE1FB7"/>
 </associations>
 </Column>
 </columns>
@@ -73,7 +84,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8F8BDD6C-C443-D140-FF21-974C81C612B8"/>
+<colUsage columnID="275B83BF-8406-B7F6-897C-AA317FED5AA4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

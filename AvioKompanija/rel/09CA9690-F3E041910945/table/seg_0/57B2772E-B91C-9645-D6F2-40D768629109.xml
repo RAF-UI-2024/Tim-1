@@ -28,9 +28,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Proizvodjac_ProizvodjacId" id="E5023106-143D-80BD-3636-8EA306CB4A91">
+<Column name="Serija_SerijaId" id="BFB0699F-560C-33CD-E64F-8EC768C48692">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:14:53 UTC</createdTime>
+<createdTime>2024-10-26 16:41:51 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,7 +39,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5286DE0C-F5AF-003D-3ECB-F88CEAEC23A6" referredColumn="31B4FC41-3E8D-EB68-5322-AA1B9ACA1732"/>
+<colAssociation fkAssociation="AB7DB53A-81DF-009A-4B1E-AA5A43F58DD9" referredColumn="8CC04618-C4D6-3E68-B851-05EBEF554AF2"/>
 </associations>
 </Column>
 </columns>
@@ -55,14 +55,14 @@
 <colUsage columnID="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1017EB37-E320-136D-97FD-5A71B7C8CF98" name="Avion_Proizvodjac_FK">
+<ind_PK_UK id="1A3BCD27-28CF-08C8-CEA3-0A2653FBCC6C" name="Avion_Serija_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-11 12:14:53 UTC</createdTime>
+<createdTime>2024-10-26 16:41:51 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5023106-143D-80BD-3636-8EA306CB4A91"/>
+<colUsage columnID="BFB0699F-560C-33CD-E64F-8EC768C48692"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

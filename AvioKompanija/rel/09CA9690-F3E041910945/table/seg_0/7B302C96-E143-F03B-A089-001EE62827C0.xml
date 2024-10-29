@@ -59,9 +59,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="843C4348-CFAD-AD0E-4554-B0FA228C7617" referredColumn="352E6CCA-F17F-2804-3B30-6EDF0C8BE194"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -74,16 +71,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D18902B0-5E40-B5A3-CC0A-8D0AC66C00FF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F2701508-2631-D3E8-E096-4410EBC02291" name="Jezik_Zaposleni_FK">
-<createdBy>User</createdBy>
-<createdTime>2024-10-11 11:57:57 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8E28D1E7-0EB9-A635-8383-551E874EDB1F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
