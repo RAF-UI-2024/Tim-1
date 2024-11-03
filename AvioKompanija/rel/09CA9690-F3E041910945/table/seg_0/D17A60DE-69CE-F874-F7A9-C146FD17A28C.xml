@@ -48,6 +48,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="PreeliminarnaRezervacija_RezrvacijaID" id="BE221E6B-038E-0DF9-98FF-C0A647519DD2">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 17:04:08 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7A98CB7-DE56-7534-7C4C-254BE72D10D2" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F0EF3E21-151B-2F67-94D8-DEFFDD4DAC20" name="KonacnaRezervacija_PK">
@@ -59,6 +73,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="47EC0F5B-FB20-AA87-65C1-2B5B5D00E9EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24418842-E61A-42FB-92E0-3137464874F3" name="KonacnaRezervacija_PreeliminarnaRezervacija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 17:04:08 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE221E6B-038E-0DF9-98FF-C0A647519DD2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
