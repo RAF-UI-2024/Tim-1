@@ -38,7 +38,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="19563148-6FD2-0311-176A-A27AEA3AB98C" name="Prtljag_PK">
+<ind_PK_UK id="19563148-6FD2-0311-176A-A27AEA3AB98C" name="Prtljag_PKv1">
 <createdBy>User</createdBy>
 <createdTime>2024-10-29 13:48:32 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>

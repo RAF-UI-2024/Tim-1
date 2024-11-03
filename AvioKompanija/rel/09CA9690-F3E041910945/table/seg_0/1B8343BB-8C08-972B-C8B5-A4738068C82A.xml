@@ -8,20 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Let_LetID" id="1CD7ADA9-BB6E-0D6F-997D-EC2162D06288">
-<createdBy>User</createdBy>
-<createdTime>2024-10-11 12:25:06 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="837F5CC7-332E-0081-A53D-A5F819C68302" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
-</associations>
-</Column>
 <Column name="PosadaID" id="4B9DC304-C53E-A72A-D04C-27185C36A63F">
 <createdBy>User</createdBy>
 <createdTime>2024-10-29 13:21:10 UTC</createdTime>
@@ -43,16 +29,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4B9DC304-C53E-A72A-D04C-27185C36A63F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="8DD1A814-B454-7277-51AC-BBA170478485" name="Posada_Let_FK">
-<createdBy>User</createdBy>
-<createdTime>2024-10-11 12:25:06 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1CD7ADA9-BB6E-0D6F-997D-EC2162D06288"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

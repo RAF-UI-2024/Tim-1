@@ -52,6 +52,20 @@
 <colAssociation fkAssociation="ACB281DC-848B-6587-4CA9-5BA04E31AFC2" referredColumn="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208"/>
 </associations>
 </Column>
+<Column name="Posada_PosadaID" id="BF817A37-0AD7-7163-F9D3-319ECB6BED3D">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 15:15:04 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8379D68-1C07-863A-5B77-FE47DFA0DEBB" referredColumn="4B9DC304-C53E-A72A-D04C-27185C36A63F"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="186E7D18-364C-598A-1468-5764A32456A4" name="Let_PK">
@@ -73,6 +87,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0D755A8C-9E51-DE3C-F5C2-4F4470781BAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0641D103-91C4-4564-6405-1F8E7F019F1E" name="Let_Posada_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 15:15:04 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF817A37-0AD7-7163-F9D3-319ECB6BED3D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
