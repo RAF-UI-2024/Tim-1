@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A0D5CFE-153E-EB93-B2E0-01DF09B0546D" name="OsiguranjeLeta">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:22:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OsiguranjeLetaID" id="54A31A0E-062D-12D1-BAB2-FE9FF3E17A9A">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:23:34 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumPolise" id="1C635457-6400-1918-DE22-F5238FA4EC0A">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:23:34 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pokrice" id="D28E0069-783C-F829-0BA7-18CFC9960000">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:23:34 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Let_LetID" id="52822E69-F96F-47FF-33AC-D9BD53DC6800">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:24:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="711C443F-EA2E-634F-098A-D7B4A3143DB5" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
+</associations>
+</Column>
+<Column name="OsiguravajucaKuca_KucaID" id="A075C29F-13B5-516B-65B5-F3D9C6C8761B">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:26:48 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13FC8DCF-CDFF-9FB7-D422-307CBC1CA23E" referredColumn="84BB07D7-898F-EE20-18C8-536FF14B4DBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66427670-348F-5358-1C30-E50F11DC6D5C" name="OsiguranjeLeta_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:23:34 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54A31A0E-062D-12D1-BAB2-FE9FF3E17A9A"/>
+<colUsage columnID="52822E69-F96F-47FF-33AC-D9BD53DC6800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A68EF8EE-10B4-079C-47C3-B599620105B0" name="OsiguranjeLeta_Let_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:24:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52822E69-F96F-47FF-33AC-D9BD53DC6800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D88636C-AD65-CA8C-4B52-7F9DE950DBCD" name="OsiguranjeLeta_OsiguravajucaKuca_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-08 10:26:48 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A075C29F-13B5-516B-65B5-F3D9C6C8761B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

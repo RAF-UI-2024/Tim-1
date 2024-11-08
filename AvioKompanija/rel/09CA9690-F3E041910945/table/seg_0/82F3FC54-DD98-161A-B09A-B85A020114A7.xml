@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5662DD1C-70A5-D76C-49D6-EC68208F2981" name="LoyaltyProgram">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82F3FC54-DD98-161A-B09A-B85A020114A7" name="OsiguravajucaKuca">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 14:10:06 UTC</createdTime>
+<createdTime>2024-11-08 10:26:03 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<ordsAlias>table_31</ordsAlias>
+<ordsAlias>table_35</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="LoyaltyProgramID" id="000E0D44-B048-9E2F-499A-748A84E7BD35">
+<Column name="KucaID" id="84BB07D7-898F-EE20-18C8-536FF14B4DBD">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 14:12:15 UTC</createdTime>
+<createdTime>2024-11-08 10:26:43 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NazivPrograma" id="1CECBF30-431C-0C1B-9C35-C3FD613444A7">
+<Column name="Naziv" id="1622E015-F366-BEBB-3748-D94CBC98A0FC">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 14:11:36 UTC</createdTime>
+<createdTime>2024-11-08 10:26:43 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,27 +28,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Popust" id="E653304A-7CDD-51C8-D71B-A83C61F73761">
-<createdBy>User</createdBy>
-<createdTime>2024-11-08 10:19:51 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B4E06590-9543-29C7-9566-5FBAE1032E6E" name="LoyaltyProgram_PK">
+<ind_PK_UK id="69742387-5B1F-E9F3-4FE7-D48FD723AEC8" name="OsiguravajucaKuca_PK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 14:12:15 UTC</createdTime>
+<createdTime>2024-11-08 10:26:43 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
+<colUsage columnID="84BB07D7-898F-EE20-18C8-536FF14B4DBD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
