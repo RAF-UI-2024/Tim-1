@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99B3E571-97A3-2020-4E04-29650B72A432" name="RezDeo_Serija">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:57:45 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RezervniDeo_ReezrvniDeoID" id="01F4B777-9B44-AD39-191A-3F7BD7A07C74">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:58:00 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37059563-C193-1702-1309-9D7973E3BA71" referredColumn="7CC32F23-AE21-2EFC-2F7D-F830F3D349C3"/>
+</associations>
+</Column>
+<Column name="Serija_SerijaId" id="AB968998-8B3B-6AC2-4C2B-0C66FAD213A8">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:58:04 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F32AC9E9-4594-B5A2-51EE-2D80C7D56FEF" referredColumn="8CC04618-C4D6-3E68-B851-05EBEF554AF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2172F40-24B1-6A35-0BC7-7016BC68E247" name="RezDeo_Serija_RezervniDeo_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:58:00 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01F4B777-9B44-AD39-191A-3F7BD7A07C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A887FA4-EBAD-15B3-C455-FD10B41D1AAF" name="RezDeo_Serija_Serija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:58:04 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB968998-8B3B-6AC2-4C2B-0C66FAD213A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

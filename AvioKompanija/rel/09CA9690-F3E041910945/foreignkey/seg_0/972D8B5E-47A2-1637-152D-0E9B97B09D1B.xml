@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7102C64E-617D-9DF3-33BD-692310E3B0E7" containerWithKeyObject="BA595264-8074-B551-0B56-F007A4C52751" localFKIndex="97EB6F61-299B-83F0-94CD-351E200498A5" name="Korisnik_LoyaltyProgram_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="972D8B5E-47A2-1637-152D-0E9B97B09D1B" containerWithKeyObject="938BE25E-AD61-CA7B-D7A9-1CC339918146" localFKIndex="C1032D41-5428-7EE7-3376-A63E7945E906" name="IstorijaLoyaltyPrograma_LoyaltyProgram_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 14:12:24 UTC</createdTime>
+<createdTime>2024-11-14 21:44:04 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <referredTableLongName>LoyaltyProgram</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

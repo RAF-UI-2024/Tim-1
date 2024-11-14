@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="37059563-C193-1702-1309-9D7973E3BA71" containerWithKeyObject="99B3E571-97A3-2020-4E04-29650B72A432" localFKIndex="A2172F40-24B1-6A35-0BC7-7016BC68E247" name="RezDeo_Serija_RezervniDeo_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:58:00 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>RezervniDeo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>726C1482-7925-ECE4-2ED2-BFDBF8D4F5D7</referredTableID>
+<keyObject>2714878D-B758-4797-7C8F-B6BF62264BAA</keyObject>
+<referredKeyID>2714878D-B758-4797-7C8F-B6BF62264BAA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ReezrvniDeoID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -68,20 +68,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Putnik_PutnikID" id="A97CB8D4-AE70-9063-20DE-1BB9C7793CCF">
-<createdBy>User</createdBy>
-<createdTime>2024-10-26 16:50:45 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="CA6D9F86-4D8E-F3E9-E949-E06BB45E52ED" referredColumn="26BF5C1C-A013-B85D-68ED-CD79B5DEE4E1"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1DFBF490-178B-9247-ED93-0D9ADD2D80D7" name="Pasos_PK">
@@ -93,16 +79,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="77C4B60C-B652-6CBF-8CD4-A65BABF127B3"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="DC4B262D-A730-7657-A542-D09E3AF27882" name="Pasos_Putnik_FK">
-<createdBy>User</createdBy>
-<createdTime>2024-10-26 16:50:45 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A97CB8D4-AE70-9063-20DE-1BB9C7793CCF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

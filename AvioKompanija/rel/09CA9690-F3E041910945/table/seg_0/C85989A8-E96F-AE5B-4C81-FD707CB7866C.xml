@@ -28,16 +28,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TipRecenzije" id="C4D0CDD0-66C4-BCEF-4054-597C79453FB2">
-<createdBy>User</createdBy>
-<createdTime>2024-10-29 14:18:01 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Opis" id="75C511D8-7AED-2E49-3988-CDC3EFDD775D">
 <createdBy>User</createdBy>
 <createdTime>2024-10-29 14:18:01 UTC</createdTime>
@@ -48,10 +38,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Ocena" id="7A3A670E-E3F2-F1A4-0E44-98D73023E9C9">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 21:40:17 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Let_LetID" id="B3A96577-3232-8BBE-8FB9-8EF4CE1742B5">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 21:41:43 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EABB91E-06AF-3C01-7AA1-404E612CF7CF" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
+</associations>
+</Column>
 <Column name="Korisnik_KorisnikID" id="FAC0B427-E5B9-9000-D8AE-CA2B114F0C4F">
 <createdBy>User</createdBy>
 <createdTime>2024-10-29 14:18:19 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -83,6 +98,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FAC0B427-E5B9-9000-D8AE-CA2B114F0C4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14E0BD27-BD48-238E-22BE-351A9DC3FA22" name="Recenzije_Let_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 21:41:43 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3A96577-3232-8BBE-8FB9-8EF4CE1742B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E7C74D1-2F29-15FA-4C5D-C1C2A933BF84" containerWithKeyObject="726C1482-7925-ECE4-2ED2-BFDBF8D4F5D7" localFKIndex="FBA8E28F-138B-706B-215A-3B07A8F1AFA1" name="RezervniDeo_Serija_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F32AC9E9-4594-B5A2-51EE-2D80C7D56FEF" containerWithKeyObject="99B3E571-97A3-2020-4E04-29650B72A432" localFKIndex="8A887FA4-EBAD-15B3-C455-FD10B41D1AAF" name="RezDeo_Serija_Serija_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:15:36 UTC</createdTime>
+<createdTime>2024-11-14 20:58:04 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <referredTableLongName>Serija</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

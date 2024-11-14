@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA6D9F86-4D8E-F3E9-E949-E06BB45E52ED" containerWithKeyObject="330E39F6-D6ED-4CAC-5AA6-1E89E311CFC4" localFKIndex="DC4B262D-A730-7657-A542-D09E3AF27882" name="Pasos_Putnik_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C04A33A8-C65B-91EA-A25D-DF435702D2C1" containerWithKeyObject="9093AF05-E622-C6BC-9F9C-4BFDE562C5BB" localFKIndex="EAC8A87D-786A-69D4-9B62-D756F88B325C" name="IzabraniPasos_Putnik_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-26 16:50:45 UTC</createdTime>
+<createdTime>2024-11-14 21:09:45 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <referredTableLongName>Putnik</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

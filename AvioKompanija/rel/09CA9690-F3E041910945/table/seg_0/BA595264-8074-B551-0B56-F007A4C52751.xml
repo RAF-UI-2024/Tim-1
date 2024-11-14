@@ -69,19 +69,16 @@
 <ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LoyaltyProgram_LoyaltyProgramID" id="2F5349E4-DF2C-04F0-DCB1-E002C73BBB71">
+<Column name="Poeni" id="E4F4307E-6D00-B355-7D55-E276AC96D156">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 14:12:24 UTC</createdTime>
+<createdTime>2024-11-14 21:44:46 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7102C64E-617D-9DF3-33BD-692310E3B0E7" referredColumn="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -94,16 +91,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="97EB6F61-299B-83F0-94CD-351E200498A5" name="Korisnik_LoyaltyProgram_FK">
-<createdBy>User</createdBy>
-<createdTime>2024-10-29 14:12:24 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2F5349E4-DF2C-04F0-DCB1-E002C73BBB71"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

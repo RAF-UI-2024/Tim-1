@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56D03606-D0A5-1D15-6093-758991D5D923" name="RezDeo_Dobavljac">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:59:00 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RezervniDeo_ReezrvniDeoID" id="1C9F96DF-3C7E-6275-F5F0-C7E2304496B7">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:59:17 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA67E25A-7177-14CA-2860-9111B9A713C1" referredColumn="7CC32F23-AE21-2EFC-2F7D-F830F3D349C3"/>
+</associations>
+</Column>
+<Column name="Dobavljac_DobavljacID" id="D388349F-EB98-757D-11C9-7D7D2F882A80">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:59:21 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="477051AD-9735-9F4B-74E5-2E6C83C2F579" referredColumn="B369EA45-E447-F8FB-25EB-1CA04E20950B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C8C01D7-1545-64C5-3762-0878599CA56E" name="RezDeo_Dobavljac_RezervniDeo_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:59:17 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C9F96DF-3C7E-6275-F5F0-C7E2304496B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8584D987-D4D6-675F-07F2-3243E6FD7EC9" name="RezDeo_Dobavljac_Dobavljac_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 20:59:21 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D388349F-EB98-757D-11C9-7D7D2F882A80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

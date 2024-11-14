@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A0D5CFE-153E-EB93-B2E0-01DF09B0546D" name="OsiguranjeLeta">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="938BE25E-AD61-CA7B-D7A9-1CC339918146" name="IstorijaLoyaltyPrograma">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:22:06 UTC</createdTime>
+<createdTime>2024-11-14 21:42:56 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<ordsAlias>table_34</ordsAlias>
+<ordsAlias>table_44</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="OsiguranjeLetaID" id="54A31A0E-062D-12D1-BAB2-FE9FF3E17A9A">
+<Column name="DatumPridruzivanja" id="6BFFA9F4-3A56-8230-8CF5-3FCEB4F47AD1">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:23:34 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DatumPolise" id="1C635457-6400-1918-DE22-F5238FA4EC0A">
-<createdBy>User</createdBy>
-<createdTime>2024-11-08 10:23:34 UTC</createdTime>
+<createdTime>2024-11-14 21:43:55 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,19 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pokrice" id="D28E0069-783C-F829-0BA7-18CFC9960000">
+<Column name="DatumNapustanja" id="0AD73D93-C43F-CE6C-B158-E6819565A120">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:23:34 UTC</createdTime>
+<createdTime>2024-11-14 21:43:55 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Let_LetID" id="52822E69-F96F-47FF-33AC-D9BD53DC6800">
+<Column name="Korisnik_KorisnikID" id="F78A7095-B6F4-FBFA-8D73-16B81FB4F267">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:24:01 UTC</createdTime>
+<createdTime>2024-11-14 21:43:59 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,12 +40,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="711C443F-EA2E-634F-098A-D7B4A3143DB5" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
+<colAssociation fkAssociation="D18F4AD4-4E87-2EF4-39D5-C1B9AE7BE21A" referredColumn="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
 </associations>
 </Column>
-<Column name="OsiguravajucaKuca_KucaID" id="A075C29F-13B5-516B-65B5-F3D9C6C8761B">
+<Column name="LoyaltyProgram_LoyaltyProgramID" id="536DDA19-6F6C-FDF1-D8D1-FB2F72F9F8CE">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:26:48 UTC</createdTime>
+<createdTime>2024-11-14 21:44:04 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,41 +54,42 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="13FC8DCF-CDFF-9FB7-D422-307CBC1CA23E" referredColumn="84BB07D7-898F-EE20-18C8-536FF14B4DBD"/>
+<colAssociation fkAssociation="972D8B5E-47A2-1637-152D-0E9B97B09D1B" referredColumn="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="66427670-348F-5358-1C30-E50F11DC6D5C" name="OsiguranjeLeta_PK">
+<ind_PK_UK id="48FD8F4E-2BEB-B81C-8814-3A4C306961BB" name="IstorijaLoyaltyPrograma_PK">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:23:34 UTC</createdTime>
+<createdTime>2024-11-14 21:43:55 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="54A31A0E-062D-12D1-BAB2-FE9FF3E17A9A"/>
-<colUsage columnID="52822E69-F96F-47FF-33AC-D9BD53DC6800"/>
+<colUsage columnID="6BFFA9F4-3A56-8230-8CF5-3FCEB4F47AD1"/>
+<colUsage columnID="536DDA19-6F6C-FDF1-D8D1-FB2F72F9F8CE"/>
+<colUsage columnID="F78A7095-B6F4-FBFA-8D73-16B81FB4F267"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A68EF8EE-10B4-079C-47C3-B599620105B0" name="OsiguranjeLeta_Let_FK">
+<ind_PK_UK id="8BC73ABF-E76B-35CE-BF98-7F8D125A544D" name="IstorijaLoyaltyPrograma_Korisnik_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:24:01 UTC</createdTime>
+<createdTime>2024-11-14 21:43:59 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="52822E69-F96F-47FF-33AC-D9BD53DC6800"/>
+<colUsage columnID="F78A7095-B6F4-FBFA-8D73-16B81FB4F267"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2D88636C-AD65-CA8C-4B52-7F9DE950DBCD" name="OsiguranjeLeta_OsiguravajucaKuca_FK">
+<ind_PK_UK id="C1032D41-5428-7EE7-3376-A63E7945E906" name="IstorijaLoyaltyPrograma_LoyaltyProgram_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:26:48 UTC</createdTime>
+<createdTime>2024-11-14 21:44:04 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A075C29F-13B5-516B-65B5-F3D9C6C8761B"/>
+<colUsage columnID="536DDA19-6F6C-FDF1-D8D1-FB2F72F9F8CE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

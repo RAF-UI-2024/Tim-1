@@ -46,7 +46,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BrojSedista" id="A3E56998-4A57-B3B6-9514-F51B5D4614D1">
+<Column name="UkupanBrojSedista" id="A3E56998-4A57-B3B6-9514-F51B5D4614D1">
 <createdBy>User</createdBy>
 <createdTime>2024-10-29 13:42:17 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>

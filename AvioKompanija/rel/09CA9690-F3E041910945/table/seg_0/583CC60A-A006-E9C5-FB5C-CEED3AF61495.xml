@@ -8,31 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Boja" id="D36C885F-278F-66D5-BDBA-194E0A2E8191">
+<Column name="Prtljag_PrtljagID" id="1A485041-0F71-B391-E5D4-09C0C1560C62">
 <createdBy>User</createdBy>
-<createdTime>2024-10-18 09:55:51 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Brend" id="00C8FEBB-899F-25F7-A1BA-EFC6FE394E36">
-<createdBy>User</createdBy>
-<createdTime>2024-10-18 09:56:06 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TipPrtljaga_PrtljagID" id="29E70404-D8B3-4DB2-940D-D091D1855015">
-<createdBy>User</createdBy>
-<createdTime>2024-10-18 09:58:25 UTC</createdTime>
+<createdTime>2024-11-14 21:57:41 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,7 +19,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="26CF3E8D-009A-626C-99B2-DE1E01D10B5D" referredColumn="A2058E1A-09EC-83C9-6573-D6D2C6B6F9A3"/>
+<colAssociation fkAssociation="2DED96DC-2A3D-6240-CC95-550123873D92" referredColumn="57B661D6-42F6-E704-63BD-381BE9127E5D"/>
 </associations>
 </Column>
 </columns>
@@ -54,17 +32,17 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="29E70404-D8B3-4DB2-940D-D091D1855015"/>
+<colUsage columnID="1A485041-0F71-B391-E5D4-09C0C1560C62"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="073E2052-3601-89CD-24D3-DA786F741063" name="Carry-on_TipPrtljaga_FK">
+<ind_PK_UK id="6732ADB8-C4CC-C9A6-BB83-D28BC4EC82EB" name="Carry-on_Prtljag_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-18 09:58:25 UTC</createdTime>
+<createdTime>2024-11-14 21:57:41 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="29E70404-D8B3-4DB2-940D-D091D1855015"/>
+<colUsage columnID="1A485041-0F71-B391-E5D4-09C0C1560C62"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

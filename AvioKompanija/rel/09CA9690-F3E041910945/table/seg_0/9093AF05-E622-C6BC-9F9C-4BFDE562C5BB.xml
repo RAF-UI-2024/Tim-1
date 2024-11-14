@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B90F495A-C742-2C1B-51AE-FB3BDCF4A8C2" name="Prtljag">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9093AF05-E622-C6BC-9F9C-4BFDE562C5BB" name="IzabraniPasos">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 13:48:04 UTC</createdTime>
+<createdTime>2024-11-14 21:09:35 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<ordsAlias>table_27</ordsAlias>
+<ordsAlias>table_40</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="TipPrtljaga_PrtljagID" id="E4CC1157-1505-D001-FD41-C64FBAE89B39">
+<Column name="Putnik_PutnikID" id="7A67CF62-30D2-1A66-EA16-4577FD3F5739">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 13:48:20 UTC</createdTime>
+<createdTime>2024-11-14 21:09:45 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,55 +19,55 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="15B4CA0B-5E8B-BFA9-CF9F-BFDDF7507847" referredColumn="A2058E1A-09EC-83C9-6573-D6D2C6B6F9A3"/>
+<colAssociation fkAssociation="C04A33A8-C65B-91EA-A25D-DF435702D2C1" referredColumn="26BF5C1C-A013-B85D-68ED-CD79B5DEE4E1"/>
 </associations>
 </Column>
-<Column name="KonacnaRezervacija_KartaID" id="C727B95F-0E64-B0B5-5E0C-4E0A883388CB">
+<Column name="Pasos_BrojPasosa" id="8AD7BAFF-2A54-C2B9-413D-29E135FF23E4">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 13:48:39 UTC</createdTime>
+<createdTime>2024-11-14 21:10:42 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CC4D5612-86F3-D5C0-4182-41F6D97991A7" referredColumn="47EC0F5B-FB20-AA87-65C1-2B5B5D00E9EE"/>
+<colAssociation fkAssociation="5B05CA30-657C-BFDB-6E11-46485F4DE90A" referredColumn="77C4B60C-B652-6CBF-8CD4-A65BABF127B3"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="19563148-6FD2-0311-176A-A27AEA3AB98C" name="Prtljag_PKv1">
+<ind_PK_UK id="30F2D9E2-ABE4-7719-388F-BED84655F653" name="IzabraniPasos_PK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 13:48:32 UTC</createdTime>
+<createdTime>2024-11-14 21:10:11 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E4CC1157-1505-D001-FD41-C64FBAE89B39"/>
-<colUsage columnID="C727B95F-0E64-B0B5-5E0C-4E0A883388CB"/>
+<colUsage columnID="7A67CF62-30D2-1A66-EA16-4577FD3F5739"/>
+<colUsage columnID="8AD7BAFF-2A54-C2B9-413D-29E135FF23E4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E79120A2-EDC0-6E2C-6C4A-C3099B717EA0" name="Prtljag_TipPrtljaga_FK">
+<ind_PK_UK id="EAC8A87D-786A-69D4-9B62-D756F88B325C" name="IzabraniPasos_Putnik_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 13:48:20 UTC</createdTime>
+<createdTime>2024-11-14 21:09:45 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E4CC1157-1505-D001-FD41-C64FBAE89B39"/>
+<colUsage columnID="7A67CF62-30D2-1A66-EA16-4577FD3F5739"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="43C11F8D-C2BA-EA2D-373A-7E670F3F5F63" name="Prtljag_KonacnaRezervacija_FK">
+<ind_PK_UK id="5AFAEB94-AFF6-DDB5-4A7E-E2CB6F8B791B" name="IzabraniPasos_Pasos_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 13:48:39 UTC</createdTime>
+<createdTime>2024-11-14 21:10:42 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C727B95F-0E64-B0B5-5E0C-4E0A883388CB"/>
+<colUsage columnID="8AD7BAFF-2A54-C2B9-413D-29E135FF23E4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

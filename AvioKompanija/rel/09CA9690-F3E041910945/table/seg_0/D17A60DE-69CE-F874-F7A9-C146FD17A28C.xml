@@ -62,6 +62,20 @@
 <colAssociation fkAssociation="D7A98CB7-DE56-7534-7C4C-254BE72D10D2" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
 </associations>
 </Column>
+<Column name="AvionskaKlasa_KlasaID" id="1EB84561-69A3-718D-FD85-30DDE0EEEB97">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 21:38:19 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1753A14-ECB2-CD96-AE16-E56838DA8DD7" referredColumn="28327734-79D2-693D-E213-677BDFB234E5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F0EF3E21-151B-2F67-94D8-DEFFDD4DAC20" name="KonacnaRezervacija_PK">
@@ -83,6 +97,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BE221E6B-038E-0DF9-98FF-C0A647519DD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEFAD56D-B130-DFC1-A372-58BFFA6D8CB6" name="KonacnaRezervacija_AvionskaKlasa_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 21:38:19 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EB84561-69A3-718D-FD85-30DDE0EEEB97"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

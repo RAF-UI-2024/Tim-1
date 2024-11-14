@@ -36,6 +36,27 @@
 <colAssociation fkAssociation="05F66904-9578-D45F-08D9-50570D76AB61" referredColumn="78745E5C-796A-0A91-FBD4-719E387C3DF0"/>
 </associations>
 </Column>
+<Column name="NivoZnanja" id="AD8A19F3-8785-6F95-CC27-AB48C465CE01">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 21:24:32 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sertifikat" id="4B5E567D-AC89-335B-36B2-0142E4F551B0">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 21:24:32 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D5635F5A-C504-3AB7-0681-6C7624169B5C" name="Stjuardesa_Jezik_Jezik_FK">

@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E9A4B05-D684-BD40-CC69-D7FD9FACFA96" containerWithKeyObject="C85989A8-E96F-AE5B-4C81-FD707CB7866C" localFKIndex="4574A62D-BBBF-3837-76E7-D264C13A109B" name="Recenzije_Korisnik_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D60C943F-C2B7-D4E1-9300-3D5BF0B1CB42" containerWithKeyObject="3526AE06-931C-115A-2964-1D07A3987047" localFKIndex="3C7581BB-F21A-0A7A-2E29-F5E2A8BAF5DB" name="IstorijaRezervacija_Korisnik_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-29 14:18:19 UTC</createdTime>
+<createdTime>2024-11-14 21:51:58 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <referredTableLongName>Korisnik</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>BA595264-8074-B551-0B56-F007A4C52751</referredTableID>
 <keyObject>9844B047-153E-F9DD-DA47-203B8545A691</keyObject>
 <referredKeyID>9844B047-153E-F9DD-DA47-203B8545A691</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>KorisnikID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
