@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6EF4A81-BE14-4914-FD32-1FE5FE9CBB21" name="RodjendanskiPopust">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:32:48 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Datum" id="0A015DE4-06F6-3559-B31E-46FEC0D23B18">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:34:46 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust_PopustID" id="4C14A503-337A-1EAB-2C8C-62395F9E1FB7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:39:58 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54D59541-B254-3654-AAD7-6CA2938F17FD" referredColumn="ACD59039-C68D-A424-D1AF-0290527F3AD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A63A9212-F04B-C876-CC8C-C580972C5B64" name="RodjendanskiPopust_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:43:37 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C14A503-337A-1EAB-2C8C-62395F9E1FB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51575037-5188-2AC1-D983-25ABFD15ACD2" name="RodjendanskiPopust_Popust_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:39:58 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C14A503-337A-1EAB-2C8C-62395F9E1FB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

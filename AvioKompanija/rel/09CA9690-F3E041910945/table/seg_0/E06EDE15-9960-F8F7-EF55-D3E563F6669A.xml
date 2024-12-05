@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E06EDE15-9960-F8F7-EF55-D3E563F6669A" name="PopustZaZaposlenog">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:36:04 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Staz" id="BAE45084-02DF-A0EE-6ACE-4CCAAD33BBA6">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:37:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pozicija" id="50F771B6-14CC-6594-3F81-F5F6A9136CA5">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:37:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust_PopustID" id="E959D4B9-3530-6069-0BA0-7C12CDA2A6DB">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:41:04 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40DF89C4-A3C3-8160-76A2-7497DC664357" referredColumn="ACD59039-C68D-A424-D1AF-0290527F3AD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="003E2425-5403-426A-2D8D-375E5248A7CD" name="PopustZaZaposlenog_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:43:32 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E959D4B9-3530-6069-0BA0-7C12CDA2A6DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DF2C042-6922-3CFA-B6B3-77D0636DE7DE" name="PopustZaZaposlenog_Popust_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:41:04 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E959D4B9-3530-6069-0BA0-7C12CDA2A6DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

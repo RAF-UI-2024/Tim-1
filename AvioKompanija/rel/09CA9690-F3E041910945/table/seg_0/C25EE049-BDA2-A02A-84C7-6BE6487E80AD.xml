@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C25EE049-BDA2-A02A-84C7-6BE6487E80AD" name="PromoKod">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:37:35 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_47</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Popust_PopustID" id="354D3A96-5759-2B41-1713-B13F252727C4">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:41:09 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B09E573B-9AB5-6D75-35B0-0A43456A4173" referredColumn="ACD59039-C68D-A424-D1AF-0290527F3AD1"/>
+</associations>
+</Column>
+<Column name="Kod" id="71EDAE06-4EB8-B5FE-5BB6-C60F9B14038E">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:45:32 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7B462C3-E0D7-9F3C-F969-05E32A4DA672" name="PromoKod_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:43:23 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="354D3A96-5759-2B41-1713-B13F252727C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73A28E84-4B59-F9C3-140F-3ECDF7FBEC3F" name="PromoKod_Popust_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:41:09 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="354D3A96-5759-2B41-1713-B13F252727C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

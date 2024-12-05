@@ -28,13 +28,37 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Popust" id="E653304A-7CDD-51C8-D71B-A83C61F73761">
+<Column name="LoyaltyPopust_Popust_PopustID" id="975A0CBE-19D0-45A7-C923-138A9B845EE0">
 <createdBy>User</createdBy>
-<createdTime>2024-11-08 10:19:51 UTC</createdTime>
+<createdTime>2024-12-05 18:44:28 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A74D9C7-6552-1872-EBD9-F8CDFE04C731" referredColumn="42E7E1E7-F37F-6879-8A4C-0770112E887B"/>
+</associations>
+</Column>
+<Column name="MinimalniPoeni" id="806C4FCB-0E9A-AEA0-6E42-D28A33F0B264">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 19:05:25 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MaxPoeni" id="2B0F03EE-EEB5-E599-4E1C-18FB6B547A21">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 19:05:25 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -49,6 +73,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C959BF7-F58C-3BF8-CFD3-7B5129F79BCB" name="LoyaltyProgram_LoyaltyPopust_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:44:28 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="975A0CBE-19D0-45A7-C923-138A9B845EE0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

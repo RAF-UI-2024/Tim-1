@@ -70,6 +70,20 @@
 <colAssociation fkAssociation="0F8E4DFA-2F1A-46DD-BAA4-A80C62CA6524" referredColumn="47EC0F5B-FB20-AA87-65C1-2B5B5D00E9EE"/>
 </associations>
 </Column>
+<Column name="TipPrtljaga_TipID" id="C650A0B8-2811-7428-1430-65F887C1ED4E">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 19:17:18 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6D2A252-8318-E26B-39D6-A2DA62B746C5" referredColumn="511591B6-0DCA-E5BD-90F2-6419AD0D26A6"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1F3B32A8-B99A-E899-D384-54FBB82F6BEB" name="Prtljag_PK">
@@ -91,6 +105,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D8269A9F-F55B-9E28-798B-600CFD9039BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBEAF715-7EE4-7C52-326E-229B1F03F9CB" name="Prtljag_TipPrtljaga_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 19:17:18 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C650A0B8-2811-7428-1430-65F887C1ED4E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

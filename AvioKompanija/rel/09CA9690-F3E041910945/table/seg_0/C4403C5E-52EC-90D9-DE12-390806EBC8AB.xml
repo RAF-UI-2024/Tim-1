@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4403C5E-52EC-90D9-DE12-390806EBC8AB" name="SezonskiPopust">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:37:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Popust_PopustID" id="A15401D1-B17A-6C45-4241-3C069F351C45">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:41:20 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CACF3E73-D76F-9865-7CA7-79CBB718251A" referredColumn="ACD59039-C68D-A424-D1AF-0290527F3AD1"/>
+</associations>
+</Column>
+<Column name="Sezona" id="71DB192A-33EF-C332-1358-0DE390A22748">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:45:44 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5631A14C-EBBC-EBAD-5123-8320CEFD13C9" name="SezonskiPopust_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:43:19 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A15401D1-B17A-6C45-4241-3C069F351C45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08E62DC2-9C64-960E-61CD-45DB57A748E1" name="SezonskiPopust_Popust_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:41:20 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A15401D1-B17A-6C45-4241-3C069F351C45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -59,6 +59,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Model_ModelId" id="10DC884D-833C-DE3B-FA85-5B5D743807A7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:28:57 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F74E99F3-FE7F-1312-97BB-E3F20CFE63CF" referredColumn="BC35F241-2C77-6E60-F615-91B293DC2992"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="298B3693-C559-E063-E93E-9691D286A731" name="Licenca_PK">
@@ -70,6 +82,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="75B8DF45-512F-859F-3484-35B08551427E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43032C12-892A-862A-0C33-E8286DA47899" name="Licenca_Model_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:28:57 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10DC884D-833C-DE3B-FA85-5B5D743807A7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

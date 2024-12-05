@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EBA5D24-3B80-6CCE-3688-93D789CBA70F" name="Popust">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AABD9AC-0BEE-2C09-F589-17F5582D7426" name="VIPSalon">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:58:38 UTC</createdTime>
+<createdTime>2024-12-05 18:58:30 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<ordsAlias>table_47</ordsAlias>
+<ordsAlias>table_53</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PopustID" id="ACD59039-C68D-A424-D1AF-0290527F3AD1">
+<Column name="SalonID" id="BD89EAD6-3526-6814-7898-B381D9D06842">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 22:00:12 UTC</createdTime>
+<createdTime>2024-12-05 18:59:25 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,39 +18,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Popust" id="87F3BB1E-4757-DCB9-6D43-416FBD48EAF9">
+<Column name="Naziv" id="F0A7392F-C53C-AC4F-5B17-AF8A795FFEA9">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:59:23 UTC</createdTime>
+<createdTime>2024-12-05 18:59:25 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumPocetka" id="82ED6261-339A-77E0-F022-23E5E7993F02">
+<Column name="MaxKapacitet" id="41FBDD32-981F-9D13-B690-65073FD76CBE">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:59:23 UTC</createdTime>
+<createdTime>2024-12-05 18:59:25 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumKraja" id="4C89192E-B848-FE1B-6509-BD29FFC56088">
+<Column name="Rezervacija_Aerodrom_PreeliminarnaRezervacija_RezrvacijaID" id="51F9F2AF-1213-BF24-45B6-D55CA51CEDD2">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:59:23 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TipPopusta_TipPopustaID" id="98195B36-0B56-736D-6CF0-80D8F671DE4E">
-<createdBy>User</createdBy>
-<createdTime>2024-12-05 18:39:10 UTC</createdTime>
+<createdTime>2024-12-05 18:59:39 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,30 +49,45 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="31ED4177-CBE7-22E2-2E96-24112C9EF515" referredColumn="1703F4A0-7DA9-D00D-B8A1-B313CDA6DCE3"/>
+<colAssociation fkAssociation="D945C62D-7E02-02FC-33B4-B19D856986C2" referredColumn="9B72FCF3-38C0-49AA-115E-6EED146ECD97"/>
+</associations>
+</Column>
+<Column name="Rezervacija_Aerodrom_Aerodrom_AerodromID" id="28F4339A-0EE6-A794-D149-58F3C93482C5">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:59:39 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D945C62D-7E02-02FC-33B4-B19D856986C2" referredColumn="829A9DCD-F5E0-2F7F-FBE9-8502E9569A49"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="75454094-DEE5-F790-4383-797D47CEF6B2" name="PopustZaLet_PK">
+<ind_PK_UK id="35AC4D6E-C6D2-A11A-350C-34177B554709" name="VIPSalon_PK">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 22:00:12 UTC</createdTime>
+<createdTime>2024-12-05 18:59:25 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="ACD59039-C68D-A424-D1AF-0290527F3AD1"/>
+<colUsage columnID="BD89EAD6-3526-6814-7898-B381D9D06842"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E292B7D2-EEC3-FCD5-38B5-BE0CD82BE991" name="Popust_TipPopusta_FK">
+<ind_PK_UK id="9B1B6D3B-39A5-397A-EBC3-1169A5D513D4" name="VIPSalon_Rezervacija_Aerodrom_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-12-05 18:39:10 UTC</createdTime>
+<createdTime>2024-12-05 18:59:39 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="98195B36-0B56-736D-6CF0-80D8F671DE4E"/>
+<colUsage columnID="51F9F2AF-1213-BF24-45B6-D55CA51CEDD2"/>
+<colUsage columnID="28F4339A-0EE6-A794-D149-58F3C93482C5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

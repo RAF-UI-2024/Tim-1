@@ -8,6 +8,16 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IstorijaID" id="6AF74364-573C-AACB-A9F9-1D5A4F1C98FD">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 19:02:58 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="DatumPridruzivanja" id="6BFFA9F4-3A56-8230-8CF5-3FCEB4F47AD1">
 <createdBy>User</createdBy>
 <createdTime>2024-11-14 21:43:55 UTC</createdTime>
@@ -29,9 +39,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Korisnik_KorisnikID" id="F78A7095-B6F4-FBFA-8D73-16B81FB4F267">
+<Column name="Korisnik_KorisnikID" id="2E66D261-EE3F-821C-2834-B2AB46DBF469">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:43:59 UTC</createdTime>
+<createdTime>2024-12-05 19:03:46 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +50,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D18F4AD4-4E87-2EF4-39D5-C1B9AE7BE21A" referredColumn="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
+<colAssociation fkAssociation="C9F077CF-9B86-9441-CC61-B7C59601B521" referredColumn="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
 </associations>
 </Column>
-<Column name="LoyaltyProgram_LoyaltyProgramID" id="536DDA19-6F6C-FDF1-D8D1-FB2F72F9F8CE">
+<Column name="LoyaltyProgram_LoyaltyProgramID" id="120D47DD-3A3F-76C5-6B90-1A727EBA64B2">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:44:04 UTC</createdTime>
+<createdTime>2024-12-05 19:03:52 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,7 +64,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="972D8B5E-47A2-1637-152D-0E9B97B09D1B" referredColumn="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
+<colAssociation fkAssociation="ECF32E4D-F190-AA3E-5AED-C3B4F050FFDD" referredColumn="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
+</associations>
+</Column>
+<Column name="LoyaltyProgram_LoyaltyProgramID1" id="5EE4E46A-4C76-8C74-F7BA-C63EE296C4B0">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 19:04:14 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F2F1B9E-3A2C-7BCF-B3DC-7EFE340C6EE3" referredColumn="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
 </associations>
 </Column>
 </columns>
@@ -67,29 +91,37 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6BFFA9F4-3A56-8230-8CF5-3FCEB4F47AD1"/>
-<colUsage columnID="536DDA19-6F6C-FDF1-D8D1-FB2F72F9F8CE"/>
-<colUsage columnID="F78A7095-B6F4-FBFA-8D73-16B81FB4F267"/>
+<colUsage columnID="6AF74364-573C-AACB-A9F9-1D5A4F1C98FD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8BC73ABF-E76B-35CE-BF98-7F8D125A544D" name="IstorijaLoyaltyPrograma_Korisnik_FK">
+<ind_PK_UK id="E6BADC16-97E0-18C7-65A8-442EE2928946" name="IstorijaLoyaltyPrograma_Korisnik_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:43:59 UTC</createdTime>
+<createdTime>2024-12-05 19:03:46 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F78A7095-B6F4-FBFA-8D73-16B81FB4F267"/>
+<colUsage columnID="2E66D261-EE3F-821C-2834-B2AB46DBF469"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C1032D41-5428-7EE7-3376-A63E7945E906" name="IstorijaLoyaltyPrograma_LoyaltyProgram_FK">
+<ind_PK_UK id="D11870AA-5298-6310-C849-2EF88130F058" name="StariNivo_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-11-14 21:44:04 UTC</createdTime>
+<createdTime>2024-12-05 19:03:52 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="536DDA19-6F6C-FDF1-D8D1-FB2F72F9F8CE"/>
+<colUsage columnID="120D47DD-3A3F-76C5-6B90-1A727EBA64B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="692395C4-E3D7-30E7-5F15-8F3841E19C22" name="NoviNivo_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 19:04:14 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EE4E46A-4C76-8C74-F7BA-C63EE296C4B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

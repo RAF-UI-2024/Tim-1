@@ -80,6 +80,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DatumRodjenja" id="CEB9F4DB-7CB8-581E-996D-FAEAD2A27814">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:46:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RodjendanskiPopust_Popust_PopustID" id="903B98C1-9816-B6F9-AD1B-26C3A5F28AE6">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:46:43 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39145253-A559-1599-85A9-93F5CCCCEC4D" referredColumn="4C14A503-337A-1EAB-2C8C-62395F9E1FB7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9844B047-153E-F9DD-DA47-203B8545A691" name="Korisnik_PK">
@@ -91,6 +115,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="21962A48-2DD3-C1D9-C318-6353F5F8F22D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E79AEE7-C808-C9BC-E964-1E2F9F63878F" name="Korisnik_RodjendanskiPopust_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-05 18:46:43 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="903B98C1-9816-B6F9-AD1B-26C3A5F28AE6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
