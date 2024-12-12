@@ -32,6 +32,20 @@
 <colAssociation fkAssociation="2EFAD2B9-023F-9261-65EB-D099678B5541" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
 </associations>
 </Column>
+<Column name="CenovniRang_RangID" id="857EE31F-32E0-8B94-FE4B-0F311FA670C9">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:39:57 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81A0CA9C-10C7-12BB-9A6D-439C562555F1" referredColumn="405DDC3A-BE8F-2E54-227B-E40544315D0D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C86CE507-EB42-B85A-F048-CC31ECFCBABF" name="Cena_PK">
@@ -53,6 +67,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B739AF89-43F2-6CAA-C302-B65AB68A307C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB2A1622-D6D3-9110-3E4C-081F64762F6A" name="Cena_CenovniRang_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:39:57 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="857EE31F-32E0-8B94-FE4B-0F311FA670C9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

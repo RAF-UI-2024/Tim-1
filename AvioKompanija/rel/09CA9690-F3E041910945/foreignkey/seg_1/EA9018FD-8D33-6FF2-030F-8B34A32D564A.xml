@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="EA9018FD-8D33-6FF2-030F-8B34A32D564A" containerWithKeyObject="32373684-5871-7E14-A18C-ECC434F8638A" localFKIndex="D02D3FED-F1FC-0279-82B4-0F5746FB2E76" name="TransakcijePoeni_Let_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:35:20 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>Let</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C843DCBD-913B-773F-2703-B74B7FE0B220</referredTableID>
+<keyObject>186E7D18-364C-598A-1468-5764A32456A4</keyObject>
+<referredKeyID>186E7D18-364C-598A-1468-5764A32456A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LetID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

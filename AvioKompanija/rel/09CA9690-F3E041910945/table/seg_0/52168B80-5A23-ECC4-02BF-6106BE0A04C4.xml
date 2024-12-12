@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52168B80-5A23-ECC4-02BF-6106BE0A04C4" name="TipLeta">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:49:21 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naziv" id="4FA61E3B-7B92-3774-C8B4-55ED6BD9FE8A">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:50:41 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Let_LetID" id="DA999BD9-7F0B-69BA-CF15-377EC551FEB2">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:51:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE2B846C-0189-DBDF-0475-3E143F299CFD" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB771069-DACD-EBB6-DCAC-4565918E4337" name="TipLeta_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:51:13 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA999BD9-7F0B-69BA-CF15-377EC551FEB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BD0D96B-0702-3293-3932-CF3DAF21BE97" name="TipLeta_Let_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:51:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA999BD9-7F0B-69BA-CF15-377EC551FEB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

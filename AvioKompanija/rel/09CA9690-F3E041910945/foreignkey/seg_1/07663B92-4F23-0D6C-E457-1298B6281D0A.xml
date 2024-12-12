@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="07663B92-4F23-0D6C-E457-1298B6281D0A" containerWithKeyObject="75457BC7-668F-4E33-311B-BE0F314A3753" localFKIndex="F9169431-3F33-C5C2-B23F-1D84D02EFD75" name="ProdajaKarti_Preprodavac_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:11:47 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>Preprodavac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A6125C6-24FB-F392-A9A0-0017FDCCAEF6</referredTableID>
+<keyObject>36CA40A4-B71C-E27B-8AE8-602066752EA3</keyObject>
+<referredKeyID>36CA40A4-B71C-E27B-8AE8-602066752EA3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PreprodavacID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

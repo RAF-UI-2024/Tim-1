@@ -104,6 +104,20 @@
 <colAssociation fkAssociation="39145253-A559-1599-85A9-93F5CCCCEC4D" referredColumn="4C14A503-337A-1EAB-2C8C-62395F9E1FB7"/>
 </associations>
 </Column>
+<Column name="LoyaltyProgram_LoyaltyProgramID" id="4A08742F-BE37-F86C-37CF-6C0472060AFE">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:28:05 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89EAF120-967C-ED97-1754-D4CA464BD86F" referredColumn="000E0D44-B048-9E2F-499A-748A84E7BD35"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9844B047-153E-F9DD-DA47-203B8545A691" name="Korisnik_PK">
@@ -125,6 +139,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="903B98C1-9816-B6F9-AD1B-26C3A5F28AE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92D68EA6-C8B6-801A-728F-102598891585" name="Korisnik_LoyaltyProgram_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:28:05 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A08742F-BE37-F86C-37CF-6C0472060AFE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

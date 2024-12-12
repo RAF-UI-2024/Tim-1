@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75457BC7-668F-4E33-311B-BE0F314A3753" name="ProdajaKarti">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:09:33 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_58</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProdajaID" id="33AE6C49-DF34-F4A9-98E2-F0707D4A3A3A">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:10:38 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumProdaje" id="D15A9378-BBC3-BF65-74C1-473093CFA41E">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:10:38 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="F71C4166-3D68-C328-A702-6051007715C7">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:10:38 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preprodavac_PreprodavacID" id="F3E1400C-C65C-E4FD-CAA9-BDE07BB9A16E">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:11:47 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07663B92-4F23-0D6C-E457-1298B6281D0A" referredColumn="D8BFCFFE-3A50-DF76-3438-FD93A0C68E81"/>
+</associations>
+</Column>
+<Column name="PreeliminarnaRezervacija_RezrvacijaID" id="38810D2B-454D-C210-2EF2-275B5944C9FB">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:11:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1468E57-E2D5-DC38-D1D5-C498476000AB" referredColumn="75614B12-79E7-375C-2A5A-B544415FAD15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D96ED105-4EB3-39A1-06C9-771717A7D93A" name="ProdajaKarti_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:10:38 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33AE6C49-DF34-F4A9-98E2-F0707D4A3A3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9169431-3F33-C5C2-B23F-1D84D02EFD75" name="ProdajaKarti_Preprodavac_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:11:47 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E1400C-C65C-E4FD-CAA9-BDE07BB9A16E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC647EB8-6269-F649-2429-1F92D1E91F3B" name="ProdajaKarti_PreeliminarnaRezervacija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-12 18:11:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38810D2B-454D-C210-2EF2-275B5944C9FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
