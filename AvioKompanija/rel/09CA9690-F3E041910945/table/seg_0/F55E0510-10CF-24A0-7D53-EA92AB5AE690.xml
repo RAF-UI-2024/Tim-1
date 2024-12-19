@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="KoferID" id="DCCAAFEA-3480-9340-AE72-2AF3F0F3A4A5">
-<createdBy>User</createdBy>
-<createdTime>2024-11-14 20:50:12 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Tezina" id="78009473-0A38-C3FD-741B-8C07AB22CB7F">
 <createdBy>User</createdBy>
 <createdTime>2024-11-14 20:50:12 UTC</createdTime>
@@ -28,11 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prtljag_PrtljagID" id="5BEB962B-FC7B-6E98-7491-4BC7EAD75B22">
+<Column name="KoferID1" id="5BEB962B-FC7B-6E98-7491-4BC7EAD75B22">
 <createdBy>User</createdBy>
 <createdTime>2024-11-14 21:58:00 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -53,7 +42,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DCCAAFEA-3480-9340-AE72-2AF3F0F3A4A5"/>
+<colUsage columnID="5BEB962B-FC7B-6E98-7491-4BC7EAD75B22"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7D7B8D1C-AD5B-549F-BFC6-DB55CB7DF33C" name="Kofer_Prtljag_FK">

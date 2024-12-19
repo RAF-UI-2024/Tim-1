@@ -18,19 +18,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Let_LetID" id="DA999BD9-7F0B-69BA-CF15-377EC551FEB2">
+<Column name="TipLetaID" id="2D60E2C5-7D9F-7C47-D284-DC8A1B17CA13">
 <createdBy>User</createdBy>
-<createdTime>2024-12-12 18:51:01 UTC</createdTime>
+<createdTime>2024-12-19 21:23:14 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EE2B846C-0189-DBDF-0475-3E143F299CFD" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -42,17 +38,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DA999BD9-7F0B-69BA-CF15-377EC551FEB2"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="2BD0D96B-0702-3293-3932-CF3DAF21BE97" name="TipLeta_Let_FK">
-<createdBy>User</createdBy>
-<createdTime>2024-12-12 18:51:01 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="DA999BD9-7F0B-69BA-CF15-377EC551FEB2"/>
+<colUsage columnID="2D60E2C5-7D9F-7C47-D284-DC8A1B17CA13"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

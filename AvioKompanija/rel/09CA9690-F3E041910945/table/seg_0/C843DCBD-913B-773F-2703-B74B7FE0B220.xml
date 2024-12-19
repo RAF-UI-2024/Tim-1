@@ -66,6 +66,20 @@
 <colAssociation fkAssociation="F8379D68-1C07-863A-5B77-FE47DFA0DEBB" referredColumn="4B9DC304-C53E-A72A-D04C-27185C36A63F"/>
 </associations>
 </Column>
+<Column name="TipLeta_TipLetaID" id="CE56D4C7-715A-2F20-221C-872CE81D9ABB">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:23:49 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A014386-2A18-36F5-297C-E3DB09992590" referredColumn="2D60E2C5-7D9F-7C47-D284-DC8A1B17CA13"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="186E7D18-364C-598A-1468-5764A32456A4" name="Let_PK">
@@ -97,6 +111,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BF817A37-0AD7-7163-F9D3-319ECB6BED3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51CCA9E3-5E82-DDC3-419A-9249814045EF" name="Let_TipLeta_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:23:49 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE56D4C7-715A-2F20-221C-872CE81D9ABB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

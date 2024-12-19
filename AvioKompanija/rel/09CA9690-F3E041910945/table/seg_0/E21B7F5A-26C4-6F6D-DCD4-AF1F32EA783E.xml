@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E21B7F5A-26C4-6F6D-DCD4-AF1F32EA783E" name="Ugovor">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:40:54 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UgovorID" id="4524613A-034A-6614-AF1A-19CADF8AEABD">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="C112D5CE-0CE2-8FCA-95F1-14E477D31944">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumPotpisa" id="2A494487-7FBD-C92B-E997-FCAC3D246BCE">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumIsteka" id="F8F82BFE-55B1-2A86-B0F6-318E2D7946F3">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aerodrom1" id="7DEFDD06-1F40-7763-4BA1-1E5D239EC656">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:42:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A89B019-4976-5F3B-F8C7-0B8002F4E4E9" referredColumn="7C67D88B-75C6-1AA5-2897-18CB16121FA5"/>
+</associations>
+</Column>
+<Column name="Aerodrom2" id="BBD22BA5-E61F-CA55-117E-A4A6E60B1755">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:42:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C68E173-54C9-525A-EDAA-B0B645EEFFB5" referredColumn="7C67D88B-75C6-1AA5-2897-18CB16121FA5"/>
+</associations>
+</Column>
+<Column name="Aviokompanija" id="8767B91D-D870-AF3B-1FD7-AB3FFB9F94D0">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:44:35 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2AA59C6-B104-652B-3B77-153319C94C86" referredColumn="0F39B0A8-993F-9C3B-AAD3-BE612BC594B7"/>
+</associations>
+</Column>
+<Column name="NotarID" id="60B1C001-CA5E-98F9-69C7-8F21101ADC76">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:48:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BE7CB12-214D-6613-2393-C2B241AF8207" referredColumn="9612479E-F3D9-AA3C-83A0-30B77555BA85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1339380C-88F1-BD67-418D-976A74808EAB" name="Ugovor_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4524613A-034A-6614-AF1A-19CADF8AEABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D11FEB92-F936-65B3-7981-2A3212CBC117" name="Ugovor_Aerodrom_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:42:06 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DEFDD06-1F40-7763-4BA1-1E5D239EC656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B6680AA-2904-FE18-E389-A363ACD4AAA3" name="Ugovor_Aerodrom_FKv2">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:42:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBD22BA5-E61F-CA55-117E-A4A6E60B1755"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC676B34-6751-1B7C-3CDB-AE710CC0AA15" name="Ugovor_Aviokompanija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:44:35 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8767B91D-D870-AF3B-1FD7-AB3FFB9F94D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01CC9CAB-131B-3F7C-C3C0-40C1C9BD07CA" name="Ugovor_Advokat_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:48:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B1C001-CA5E-98F9-69C7-8F21101ADC76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

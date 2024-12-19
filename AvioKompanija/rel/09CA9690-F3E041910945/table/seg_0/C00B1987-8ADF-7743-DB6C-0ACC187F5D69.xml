@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C00B1987-8ADF-7743-DB6C-0ACC187F5D69" name="IstorijaSponzorstva">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:59:15 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_76</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DatumPotpisa" id="D80BD316-7690-AC4B-CE18-CBBBFA44F58B">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:59:53 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumIsteka" id="7753CCE6-E576-0D14-F3D2-FDC6A289F81D">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:59:53 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naknada" id="D43EF042-EC1D-DE98-46E9-13FA1E1185C8">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:59:53 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aviokompanija" id="65D9AF45-8666-0FF3-B221-FB36A66B9F04">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:59:59 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1630642E-1A11-FA35-E744-A215BCB5F9CF" referredColumn="0F39B0A8-993F-9C3B-AAD3-BE612BC594B7"/>
+</associations>
+</Column>
+<Column name="Sporazum" id="26C2E678-209F-B350-1244-46D66703F92C">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 22:00:05 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D87B360-0EA7-E1F4-A64E-30939CE4C381" referredColumn="6BA2741C-104B-296F-F014-56093AAF463B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F968306C-4330-55FF-4018-B0B7B08DD6F2" name="IstorijaSponzorstva_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 22:00:34 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C2E678-209F-B350-1244-46D66703F92C"/>
+<colUsage columnID="65D9AF45-8666-0FF3-B221-FB36A66B9F04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E705396C-FEE7-2EE6-0589-5A106D85C9EC" name="IstorijaSponzorstva_Aviokompanija_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:59:59 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65D9AF45-8666-0FF3-B221-FB36A66B9F04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE384E77-8707-17A3-8903-04CC9D21E8DC" name="IstorijaSponzorstva_Sporazum_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 22:00:05 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C2E678-209F-B350-1244-46D66703F92C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

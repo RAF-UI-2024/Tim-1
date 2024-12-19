@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CharterLeIid" id="520F45D5-67BD-BBF9-DFC2-C86F9A87E98D">
-<createdBy>User</createdBy>
-<createdTime>2024-12-12 18:53:14 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="Naziv" id="A4DFE5F1-E584-B4FC-CD0F-E641A499B3E7">
 <createdBy>User</createdBy>
 <createdTime>2024-12-12 18:54:17 UTC</createdTime>
@@ -40,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Let_LetID" id="4CEDE1F8-8191-6CC2-659C-59A67194BE34">
+<Column name="CarterID" id="4CEDE1F8-8191-6CC2-659C-59A67194BE34">
 <createdBy>User</createdBy>
 <createdTime>2024-12-12 18:55:54 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
@@ -54,6 +44,16 @@
 <colAssociation fkAssociation="36AC724B-373C-165A-BE04-1961CA01D99C" referredColumn="1988D195-D650-EA9A-435C-574B5156D65B"/>
 </associations>
 </Column>
+<Column name="Organizator" id="A8378CFD-D34B-6CFD-07B0-D0ADD492DA6E">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:24:38 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5C9D9789-CF52-4EB2-72AB-1BB67FFB4F29" name="CharterLet_PK">
@@ -64,7 +64,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="520F45D5-67BD-BBF9-DFC2-C86F9A87E98D"/>
+<colUsage columnID="4CEDE1F8-8191-6CC2-659C-59A67194BE34"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D71B40FB-9730-3709-B296-61E07B4C7557" name="CharterLet_Let_FK">

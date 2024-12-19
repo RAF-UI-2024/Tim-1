@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="8CE08F1C-5F0A-F5AA-5654-8EE35B5992F4" containerWithKeyObject="75963F03-CFC3-F895-2AE9-903E6AD5CEC9" localFKIndex="23C71BF6-AB6B-63E8-6AB3-81972F5849D0" name="Sporazum_Sponzor_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-19 21:57:34 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>Sponzor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF068144-063B-500E-8893-2FFD04522C39</referredTableID>
+<keyObject>7B3E9129-BF9C-D0DF-69AE-E5C898831DB8</keyObject>
+<referredKeyID>7B3E9129-BF9C-D0DF-69AE-E5C898831DB8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SponzorID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
