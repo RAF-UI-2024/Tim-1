@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="9FA0A8CD-C019-8C88-FBF4-23049D8CA8FB" containerWithKeyObject="2CB6A670-BFD3-8619-D245-244CEDC09922" localFKIndex="FF013941-E4CA-8587-45AA-9EB07BD11399" name="Pumpa_Hangar_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:51:02 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>Hangar</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0297A3EE-C6AA-DD5B-F540-92AEF421DAA7</referredTableID>
+<keyObject>EBA13B9E-EE3A-0AE6-8823-874190369C86</keyObject>
+<referredKeyID>EBA13B9E-EE3A-0AE6-8823-874190369C86</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HangarID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

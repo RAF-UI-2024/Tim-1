@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57B2772E-B91C-9645-D6F2-40D768629109" name="Avion">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2CB6A670-BFD3-8619-D245-244CEDC09922" name="Pumpa">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 12:30:49 UTC</createdTime>
+<createdTime>2024-12-25 12:50:40 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_77</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="AvionID" id="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208">
+<Column name="PumpaID" id="EE7024F6-BF48-82EA-F40D-E78E20C30413">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 12:34:52 UTC</createdTime>
+<createdTime>2024-12-25 12:50:56 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Serija_SerijaId" id="BFB0699F-560C-33CD-E64F-8EC768C48692">
+<Column name="Hangar_HangarID" id="377F3776-B3D1-3349-D6B9-E5014C1C0978">
 <createdBy>User</createdBy>
-<createdTime>2024-10-26 16:41:51 UTC</createdTime>
+<createdTime>2024-12-25 12:51:02 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AB7DB53A-81DF-009A-4B1E-AA5A43F58DD9" referredColumn="8CC04618-C4D6-3E68-B851-05EBEF554AF2"/>
+<colAssociation fkAssociation="9FA0A8CD-C019-8C88-FBF4-23049D8CA8FB" referredColumn="92AFF094-E156-DB08-5E5B-81B5C070CF3E"/>
 </associations>
 </Column>
-<Column name="TipAviona_TipAvionaID" id="410A46A3-F510-D4DF-1D8B-6646D5AF2129">
+<Column name="TarifaGoriva_TarifaID" id="8A10DD77-C54A-85D5-53BC-F228180CC947">
 <createdBy>User</createdBy>
-<createdTime>2024-12-25 12:43:52 UTC</createdTime>
+<createdTime>2024-12-25 12:52:33 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,64 +43,50 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D746DA6D-09F5-3B9A-7679-627EBE9E5FB2" referredColumn="B61C8CC9-6C48-AA11-22DE-06B8E1100C0D"/>
+<colAssociation fkAssociation="7D0010C5-2488-5316-987C-F4A18CAE994E" referredColumn="E6BE6114-B341-0E61-0D6F-7B859663A6E1"/>
 </associations>
 </Column>
-<Column name="Hangar_HangarID" id="F4E29717-7E84-EE5A-FAD8-B22C45E1C35E">
+<Column name="Kapacitet" id="34734807-A99E-E8BD-4C49-60A0212A4299">
 <createdBy>User</createdBy>
-<createdTime>2024-12-25 12:48:33 UTC</createdTime>
+<createdTime>2024-12-25 12:53:32 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E4EA4A68-F377-1509-9418-D248E627CC0D" referredColumn="92AFF094-E156-DB08-5E5B-81B5C070CF3E"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="291BB020-AB9A-36E7-FA8C-155938749FB4" name="Avion_PK">
+<ind_PK_UK id="A0879223-564F-776D-F70F-BA7B07C2C1C9" name="Pumpa_PK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-08 12:34:52 UTC</createdTime>
+<createdTime>2024-12-25 12:50:56 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208"/>
+<colUsage columnID="EE7024F6-BF48-82EA-F40D-E78E20C30413"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1A3BCD27-28CF-08C8-CEA3-0A2653FBCC6C" name="Avion_Serija_FK">
+<ind_PK_UK id="FF013941-E4CA-8587-45AA-9EB07BD11399" name="Pumpa_Hangar_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-10-26 16:41:51 UTC</createdTime>
+<createdTime>2024-12-25 12:51:02 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BFB0699F-560C-33CD-E64F-8EC768C48692"/>
+<colUsage columnID="377F3776-B3D1-3349-D6B9-E5014C1C0978"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B0025510-FD80-131F-66EA-F99DE920F118" name="Avion_TipAviona_FK">
+<ind_PK_UK id="48B5FE8B-FA9B-8971-E392-3ABC1AB7A12E" name="Pumpa_TarifaGoriva_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-12-25 12:43:52 UTC</createdTime>
+<createdTime>2024-12-25 12:52:33 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="410A46A3-F510-D4DF-1D8B-6646D5AF2129"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="92E68DD5-EB87-C67B-40B4-119024CAB2F7" name="Avion_Hangar_FK">
-<createdBy>User</createdBy>
-<createdTime>2024-12-25 12:48:33 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="F4E29717-7E84-EE5A-FAD8-B22C45E1C35E"/>
+<colUsage columnID="8A10DD77-C54A-85D5-53BC-F228180CC947"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

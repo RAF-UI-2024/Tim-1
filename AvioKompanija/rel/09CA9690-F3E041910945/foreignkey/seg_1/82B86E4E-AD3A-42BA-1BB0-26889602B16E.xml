@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="0C68E173-54C9-525A-EDAA-B0B645EEFFB5" containerWithKeyObject="E21B7F5A-26C4-6F6D-DCD4-AF1F32EA783E" localFKIndex="4B6680AA-2904-FE18-E389-A363ACD4AAA3" name="Ugovor_Aerodrom_FKv2">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="82B86E4E-AD3A-42BA-1BB0-26889602B16E" containerWithKeyObject="0297A3EE-C6AA-DD5B-F540-92AEF421DAA7" localFKIndex="9C8BF78D-35C9-CA4D-30F4-F6D1D5262606" name="Hangar_Aerodrom_FK">
 <createdBy>User</createdBy>
-<createdTime>2024-12-19 21:42:24 UTC</createdTime>
+<createdTime>2024-12-25 12:42:01 UTC</createdTime>
 <ownerDesignName>AvioKompanija</ownerDesignName>
 <referredTableLongName>Aerodrom</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

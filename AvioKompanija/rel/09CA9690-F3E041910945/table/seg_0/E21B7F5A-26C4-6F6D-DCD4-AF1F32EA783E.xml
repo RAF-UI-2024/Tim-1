@@ -62,20 +62,6 @@
 <colAssociation fkAssociation="1A89B019-4976-5F3B-F8C7-0B8002F4E4E9" referredColumn="7C67D88B-75C6-1AA5-2897-18CB16121FA5"/>
 </associations>
 </Column>
-<Column name="Aerodrom2" id="BBD22BA5-E61F-CA55-117E-A4A6E60B1755">
-<createdBy>User</createdBy>
-<createdTime>2024-12-19 21:42:24 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0C68E173-54C9-525A-EDAA-B0B645EEFFB5" referredColumn="7C67D88B-75C6-1AA5-2897-18CB16121FA5"/>
-</associations>
-</Column>
 <Column name="Aviokompanija" id="8767B91D-D870-AF3B-1FD7-AB3FFB9F94D0">
 <createdBy>User</createdBy>
 <createdTime>2024-12-19 21:44:35 UTC</createdTime>
@@ -104,6 +90,20 @@
 <colAssociation fkAssociation="9BE7CB12-214D-6613-2393-C2B241AF8207" referredColumn="9612479E-F3D9-AA3C-83A0-30B77555BA85"/>
 </associations>
 </Column>
+<Column name="CharterLet_CarterID" id="3FC92780-499C-0AC7-267C-BC85A13CDBFF">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:30:16 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F288F4A-3FDD-C182-A2FB-1E38A04EC049" referredColumn="4CEDE1F8-8191-6CC2-659C-59A67194BE34"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1339380C-88F1-BD67-418D-976A74808EAB" name="Ugovor_PK">
@@ -127,16 +127,6 @@
 <colUsage columnID="7DEFDD06-1F40-7763-4BA1-1E5D239EC656"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4B6680AA-2904-FE18-E389-A363ACD4AAA3" name="Ugovor_Aerodrom_FKv2">
-<createdBy>User</createdBy>
-<createdTime>2024-12-19 21:42:24 UTC</createdTime>
-<ownerDesignName>AvioKompanija</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BBD22BA5-E61F-CA55-117E-A4A6E60B1755"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="BC676B34-6751-1B7C-3CDB-AE710CC0AA15" name="Ugovor_Aviokompanija_FK">
 <createdBy>User</createdBy>
 <createdTime>2024-12-19 21:44:35 UTC</createdTime>
@@ -155,6 +145,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="60B1C001-CA5E-98F9-69C7-8F21101ADC76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="775EC028-208D-1AA1-4405-02FD5BDDFC3F" name="Ugovor_CharterLet_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:30:16 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FC92780-499C-0AC7-267C-BC85A13CDBFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="7D0010C5-2488-5316-987C-F4A18CAE994E" containerWithKeyObject="2CB6A670-BFD3-8619-D245-244CEDC09922" localFKIndex="48B5FE8B-FA9B-8971-E392-3ABC1AB7A12E" name="Pumpa_TarifaGoriva_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:52:33 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<referredTableLongName>TarifaGoriva</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17699532-1F1C-9CFD-C02B-6FFBA18F3610</referredTableID>
+<keyObject>26440574-35CA-DE7A-5F56-76F09043B662</keyObject>
+<referredKeyID>26440574-35CA-DE7A-5F56-76F09043B662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TarifaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

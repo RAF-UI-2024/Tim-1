@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="0297A3EE-C6AA-DD5B-F540-92AEF421DAA7" name="Hangar">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:39:43 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_72</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HangarID" id="92AFF094-E156-DB08-5E5B-81B5C070CF3E">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kapacitet" id="0868600F-D13F-F320-5C33-C625D70AA844">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CenaPoAvionu" id="17B8EA1A-CAC3-2C1E-523B-4FD6D7A7AC62">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aerodrom_AerodromID" id="E7EB9A74-13AB-59CA-ECD0-8D4E042A7FF5">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:42:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82B86E4E-AD3A-42BA-1BB0-26889602B16E" referredColumn="7C67D88B-75C6-1AA5-2897-18CB16121FA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBA13B9E-EE3A-0AE6-8823-874190369C86" name="Hangar_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:41:56 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92AFF094-E156-DB08-5E5B-81B5C070CF3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C8BF78D-35C9-CA4D-30F4-F6D1D5262606" name="Hangar_Aerodrom_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:42:01 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7EB9A74-13AB-59CA-ECD0-8D4E042A7FF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

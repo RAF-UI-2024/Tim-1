@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="0E19AC55-C181-8725-A7E0-E9DF3538C592" name="Privatni">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:45:23 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_75</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vlasnik" id="7E010FC1-21A6-B8C4-2573-4120A62C7966">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:46:16 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumKupovine" id="6A14DA48-00F4-D51D-6BF0-F4C1481A0E31">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:46:16 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avion_AvionID" id="356A7DCF-CF7F-8311-96FD-EADDE1BA45BA">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:46:27 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15B154EF-714B-2669-E485-65BB66EC0DB0" referredColumn="02840E19-F3B0-A0B7-5CAE-76CB9DBA4208"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DABD148-7E0D-B126-E642-ED1D9EFAA30B" name="Privatni_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:46:49 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="356A7DCF-CF7F-8311-96FD-EADDE1BA45BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFA80E5D-4152-B46A-39D7-00EE0FFB63E5" name="Privatni_Avion_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:46:27 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="356A7DCF-CF7F-8311-96FD-EADDE1BA45BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

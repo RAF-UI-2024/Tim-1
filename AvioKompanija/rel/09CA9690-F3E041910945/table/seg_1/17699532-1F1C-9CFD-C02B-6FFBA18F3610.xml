@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="17699532-1F1C-9CFD-C02B-6FFBA18F3610" name="TarifaGoriva">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:51:17 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<ordsAlias>table_78</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TarifaID" id="E6BE6114-B341-0E61-0D6F-7B859663A6E1">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:52:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="DD8F2BBF-9160-DBC7-4C1A-A5FF2710BAEE">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:52:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CenaPoLitru" id="26B3051D-05AA-5446-8D65-7F6AA573539B">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:52:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26440574-35CA-DE7A-5F56-76F09043B662" name="TarifaGoriva_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-12-25 12:52:24 UTC</createdTime>
+<ownerDesignName>AvioKompanija</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6BE6114-B341-0E61-0D6F-7B859663A6E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
